@@ -52,8 +52,7 @@ body,html,section{
 
 .focus-section{
   background-color: #fff;
-  height: 600px;
-;
+  height: auto;
 }
 
 .focus-header{
