@@ -78,7 +78,7 @@ body, html, section {
 }
 
 
-/*slider*/
+/*slider-section*/
 
 .slider-section {
     background-color: #fff;
@@ -93,7 +93,7 @@ body, html, section {
 }
 
 
-/*vendor*/
+/*vendor-section*/
 .vendor-section {
     background-color: #fff;
     height: auto !important;
@@ -124,9 +124,9 @@ body, html, section {
 }
 
 
-/*course*/
+/*course-section*/
 .course-section {
-    width: 1200px;
+    width: 100%;
     margin: auto;
     height: auto;
     background-color: #fff;
@@ -221,9 +221,45 @@ body, html, section {
     margin: 0px 0px !important;
 }
 
-.latest-section {
-    background-color: rgba(243, 183, 69, 0.59);
-    ;
+/*corporate-section*/
+.corporate-section {
+    width: 100%;
+    background-color: #fff;
+}
+
+.corporate-container{
+  width: 100%;
+  margin: auto;
+  height: 650px;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.corporate-caption-top{
+  top: 210px;
+  padding-left: 130px !important;
+}
+
+.corporate-caption-top>h3{
+  color: #fff;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.corporate-caption-bottom{
+  padding-left: 130px !important;
+  top: 210px;
+}
+
+.corporate-caption-bottom>h1{
+  color: #fff;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.corporate-caption-underlined{
+  border-bottom: 2px solid #fff;
+  margin-left: 7px;
 }
 
 .footer-setion {
