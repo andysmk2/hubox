@@ -4421,15 +4421,6 @@ label+input {
     margin-top: 0.8125em;
 }
 
-button {
-    height: 52px;
-    font-size: 0.625em !important;
-    letter-spacing: 1px;
-    color: #fff;
-    background: #425cbb;
-    border-color: #425cbb;
-}
-
 button:hover, button:focus, button:active {
     color: #fff !important;
 }

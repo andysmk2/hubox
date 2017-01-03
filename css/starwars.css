@@ -22,14 +22,14 @@
 .rate_star{
     color: #cccccc;
     cursor: pointer;
-    font-size: 26px;
+    font-size: 25px;
     padding: 0px 3px;
 }
 .rate_star.over{
-    color: #f9e431;
+    color: #343434;
 }
 .rate_star.checked{
-    color: #F9D932;
+    color: #343434;
 }
 .rate_star.disable{
     cursor:not-allowed;
