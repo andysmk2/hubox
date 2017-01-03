@@ -34,9 +34,7 @@
     <script src="js/jquery-2.1.4.min.js"></script>
 </head>
 
-<body onload="myFunction()" style="margin:0;">
-    <div id="loader"></div>
-    <div style="display:none;" id="myDiv" class="animate-bottom">
+<body>
         <!-- Navigation -->
         <nav class="navbar-custom">
             <div class="navbar-container nav-bar" data-fixed-at="200">
@@ -318,739 +316,734 @@
         <section class="blank-section"></section>
 
         <section class="course-section">
+        <div class="course-container">
+        <div class="col-md-3">
+          <h2>體驗推薦</h2>
+        </div>
+            <!-- Tab nav -->
+            <ul class="nav nav-tabs col-md-9" id="myTabs" role="tablist">
+                <li role="presentation" class="active">
+                    <a href="#crafts" aria-controls="home" role="tab" data-toggle="tab">手作推薦</a>
+                </li>
+                <li role="presentation" class="footer-border-right">
+                    <a href="#flowers" aria-controls="profile" role="tab" data-toggle="tab">花藝推薦</a>
+                </li>
+                <li role="presentation" class="footer-border-right">
+                    <a href="#kids" aria-controls="messages" role="tab" data-toggle="tab">親子推薦</a>
+                </li>
+                <li role="presentation" class="footer-border-right">
+                    <a href="#bakery" aria-controls="settings" role="tab" data-toggle="tab">烘焙推薦</a>
+                </li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade active in" id="crafts">
+                  <div class="course-container tab__content">
+                      <div class="col-md-4 course-card padding-15">
 
-            <!-- course tab starts here -->
-            <div class="tabs-container tabs-2">
-                <h2 class="col-md-2">體驗推薦</h2>
-                <ul class="tabs col-md-10">
+                          <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%) contrast(83%);"></div>
 
-                    <!-- 手作學習tab -->
-                    <li class="active footer-border-right">
-                        <div class="tab__title">
-                            <h4>手作推薦</h4>
-                        </div>
-                        <div class="course-container tab__content">
-                            <div class="col-md-4 course-card padding-15">
+                          <div class=" col-md-4 course-card-image-caption-1">
+                              <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>加入體驗</a>
+                          </div>
 
-                                <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%) contrast(83%);"></div>
+                          <div class="col-md-4 course-card-image-caption-2">
+                              <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>3小時</a>
+                          </div>
 
-                                <div class=" col-md-4 course-card-image-caption-1">
-                                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>加入體驗</a>
-                                </div>
+                          <div class="course-card-profile">
+                              <a href="#"><img src="img/mk_logo.jpg" /></a>
+                          </div>
 
-                                <div class="col-md-4 course-card-image-caption-2">
-                                    <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>3小時</a>
-                                </div>
+                          <div class="course-card-caption padding-15">
+                              <h3>夏洛克.福爾摩斯</h3>
+                              <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
+                          </div>
 
-                                <div class="course-card-profile">
-                                    <a href="#"><img src="img/mk_logo.jpg" /></a>
-                                </div>
+                          <div class="course-card-footer padding-15">
+                              <div class="col-md-8 course-card-footer-participant">
 
-                                <div class="course-card-caption padding-15">
-                                    <h3>夏洛克.福爾摩斯</h3>
-                                    <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
-                                </div>
+                                  <i class="fa fa-users" aria-hidden="true"></i>
+                                  <p>200人參與</p>
+                              </div>
+                              <div class="col-md-4 course-card-footer-btn">
+                                  <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
+                              </div>
+                          </div>
 
-                                <div class="course-card-footer padding-15">
-                                    <div class="col-md-8 course-card-footer-participant">
+                      </div>
+                      <div class="col-md-4 course-card padding-15">
 
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                        <p>200人參與</p>
-                                    </div>
-                                    <div class="col-md-4 course-card-footer-btn">
-                                        <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-md-4 course-card padding-15">
-
-                                <div class="course-card-image-holder" style="background-image:url('img/sky_walker.jpg'); filter: grayscale(2%)
-                        contrast(83%);">
+                          <div class="course-card-image-holder" style="background-image:url('img/sky_walker.jpg'); filter: grayscale(2%)
+                  contrast(83%);">
 
 
-                                </div>
+                          </div>
 
-                                <div class=" col-md-4 course-card-image-caption-1">
-                                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
+                          <div class=" col-md-4 course-card-image-caption-1">
+                              <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
 加入體驗</a>
-                                </div>
-                                <div class="col-md-4 course-card-image-caption-2">
-                                    <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                          </div>
+                          <div class="col-md-4 course-card-image-caption-2">
+                              <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
 3小時</a>
-                                </div>
+                          </div>
 
-                                <div class="course-card-profile">
-                                    <a href="#"><img src="img/mk_logo.jpg" /></a>
-                                </div>
+                          <div class="course-card-profile">
+                              <a href="#"><img src="img/mk_logo.jpg" /></a>
+                          </div>
 
-                                <div class="course-card-caption padding-15">
-                                    <h3>天行者</h3>
-                                    <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
-                                    </p>
-                                </div>
+                          <div class="course-card-caption padding-15">
+                              <h3>天行者</h3>
+                              <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
+                              </p>
+                          </div>
 
-                                <div class="course-card-footer padding-15">
-                                    <div class="col-md-8 course-card-footer-participant">
+                          <div class="course-card-footer padding-15">
+                              <div class="col-md-8 course-card-footer-participant">
 
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                        <p>200人參與</p>
-                                    </div>
-                                    <div class="col-md-4 course-card-footer-btn">
-                                        <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
-                                    </div>
-                                </div>
+                                  <i class="fa fa-users" aria-hidden="true"></i>
+                                  <p>200人參與</p>
+                              </div>
+                              <div class="col-md-4 course-card-footer-btn">
+                                  <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
+                              </div>
+                          </div>
 
-                            </div>
-                            <div class="col-md-4 course-card padding-15">
+                      </div>
+                      <div class="col-md-4 course-card padding-15">
 
-                                <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
-                        contrast(83%);">
+                          <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
+                  contrast(83%);">
 
 
-                                </div>
+                          </div>
 
-                                <div class=" col-md-4 course-card-image-caption-1">
-                                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
+                          <div class=" col-md-4 course-card-image-caption-1">
+                              <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
 加入體驗</a>
-                                </div>
-                                <div class="col-md-4 course-card-image-caption-2">
-                                    <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                          </div>
+                          <div class="col-md-4 course-card-image-caption-2">
+                              <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
 3小時</a>
-                                </div>
+                          </div>
 
-                                <div class="course-card-profile">
-                                    <a href="#"><img src="img/mk_logo.jpg" /></a>
-                                </div>
+                          <div class="course-card-profile">
+                              <a href="#"><img src="img/mk_logo.jpg" /></a>
+                          </div>
 
-                                <div class="course-card-caption padding-15">
-                                    <h3>夏洛克.福爾摩斯</h3>
-                                    <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
-                                    </p>
-                                </div>
+                          <div class="course-card-caption padding-15">
+                              <h3>夏洛克.福爾摩斯</h3>
+                              <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
+                              </p>
+                          </div>
 
-                                <div class="course-card-footer padding-15">
-                                    <div class="col-md-8 course-card-footer-participant">
+                          <div class="course-card-footer padding-15">
+                              <div class="col-md-8 course-card-footer-participant">
 
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                        <p>200人參與</p>
-                                    </div>
-                                    <div class="col-md-4 course-card-footer-btn">
-                                        <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
-                                    </div>
-                                </div>
+                                  <i class="fa fa-users" aria-hidden="true"></i>
+                                  <p>200人參與</p>
+                              </div>
+                              <div class="col-md-4 course-card-footer-btn">
+                                  <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
+                              </div>
+                          </div>
 
-                            </div>
-                            <div class="col-md-4 course-card padding-15">
+                      </div>
+                      <div class="col-md-4 course-card padding-15">
 
-                                <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
-                        contrast(83%);">
+                          <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
+                  contrast(83%);">
 
 
-                                </div>
+                          </div>
 
-                                <div class=" col-md-4 course-card-image-caption-1">
-                                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
+                          <div class=" col-md-4 course-card-image-caption-1">
+                              <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
 加入體驗</a>
-                                </div>
-                                <div class="col-md-4 course-card-image-caption-2">
-                                    <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                          </div>
+                          <div class="col-md-4 course-card-image-caption-2">
+                              <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
 3小時</a>
-                                </div>
+                          </div>
 
-                                <div class="course-card-profile">
-                                    <a href="#"><img src="img/mk_logo.jpg" /></a>
-                                </div>
+                          <div class="course-card-profile">
+                              <a href="#"><img src="img/mk_logo.jpg" /></a>
+                          </div>
 
-                                <div class="course-card-caption padding-15">
-                                    <h3>夏洛克.福爾摩斯</h3>
-                                    <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
-                                    </p>
-                                </div>
+                          <div class="course-card-caption padding-15">
+                              <h3>夏洛克.福爾摩斯</h3>
+                              <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
+                              </p>
+                          </div>
 
-                                <div class="course-card-footer padding-15">
-                                    <div class="col-md-8 course-card-footer-participant">
+                          <div class="course-card-footer padding-15">
+                              <div class="col-md-8 course-card-footer-participant">
 
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                        <p>200人參與</p>
-                                    </div>
-                                    <div class="col-md-4 course-card-footer-btn">
-                                        <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
-                                    </div>
-                                </div>
+                                  <i class="fa fa-users" aria-hidden="true"></i>
+                                  <p>200人參與</p>
+                              </div>
+                              <div class="col-md-4 course-card-footer-btn">
+                                  <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
+                              </div>
+                          </div>
 
-                            </div>
-                            <div class="col-md-4 course-card padding-15">
+                      </div>
+                      <div class="col-md-4 course-card padding-15">
 
-                                <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
-                        contrast(83%);">
+                          <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
+                  contrast(83%);">
 
 
-                                </div>
+                          </div>
 
-                                <div class=" col-md-4 course-card-image-caption-1">
-                                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
+                          <div class=" col-md-4 course-card-image-caption-1">
+                              <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
 加入體驗</a>
-                                </div>
-                                <div class="col-md-4 course-card-image-caption-2">
-                                    <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                          </div>
+                          <div class="col-md-4 course-card-image-caption-2">
+                              <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
 3小時</a>
-                                </div>
+                          </div>
 
-                                <div class="course-card-profile">
-                                    <a href="#"><img src="img/mk_logo.jpg" /></a>
-                                </div>
+                          <div class="course-card-profile">
+                              <a href="#"><img src="img/mk_logo.jpg" /></a>
+                          </div>
 
-                                <div class="course-card-caption padding-15">
-                                    <h3>夏洛克.福爾摩斯</h3>
-                                    <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
-                                    </p>
-                                </div>
+                          <div class="course-card-caption padding-15">
+                              <h3>夏洛克.福爾摩斯</h3>
+                              <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
+                              </p>
+                          </div>
 
-                                <div class="course-card-footer padding-15">
-                                    <div class="col-md-8 course-card-footer-participant">
+                          <div class="course-card-footer padding-15">
+                              <div class="col-md-8 course-card-footer-participant">
 
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                        <p>200人參與</p>
-                                    </div>
-                                    <div class="col-md-4 course-card-footer-btn">
-                                        <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
-                                    </div>
-                                </div>
+                                  <i class="fa fa-users" aria-hidden="true"></i>
+                                  <p>200人參與</p>
+                              </div>
+                              <div class="col-md-4 course-card-footer-btn">
+                                  <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
+                              </div>
+                          </div>
 
-                            </div>
-                            <div class="col-md-4 course-card padding-15">
+                      </div>
+                      <div class="col-md-4 course-card padding-15">
 
-                                <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
-                        contrast(83%);">
+                          <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
+                  contrast(83%);">
 
 
-                                </div>
+                          </div>
 
-                                <div class=" col-md-4 course-card-image-caption-1">
-                                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
+                          <div class=" col-md-4 course-card-image-caption-1">
+                              <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
 加入體驗</a>
-                                </div>
-                                <div class="col-md-4 course-card-image-caption-2">
-                                    <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                          </div>
+                          <div class="col-md-4 course-card-image-caption-2">
+                              <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
 3小時</a>
-                                </div>
+                          </div>
 
-                                <div class="course-card-profile">
-                                    <a href="#"><img src="img/mk_logo.jpg" /></a>
-                                </div>
+                          <div class="course-card-profile">
+                              <a href="#"><img src="img/mk_logo.jpg" /></a>
+                          </div>
 
-                                <div class="course-card-caption padding-15">
-                                    <h3>夏洛克.福爾摩斯</h3>
-                                    <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
-                                    </p>
-                                </div>
+                          <div class="course-card-caption padding-15">
+                              <h3>夏洛克.福爾摩斯</h3>
+                              <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
+                              </p>
+                          </div>
 
-                                <div class="course-card-footer padding-15">
-                                    <div class="col-md-8 course-card-footer-participant">
+                          <div class="course-card-footer padding-15">
+                              <div class="col-md-8 course-card-footer-participant">
 
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                        <p>200人參與</p>
-                                    </div>
-                                    <div class="col-md-4 course-card-footer-btn">
-                                        <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
+                                  <i class="fa fa-users" aria-hidden="true"></i>
+                                  <p>200人參與</p>
+                              </div>
+                              <div class="col-md-4 course-card-footer-btn">
+                                  <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="flowers">
+                  <div class="course-container tab__content">
+                      <div class="col-md-4 course-card padding-15 masonry__item">
 
-                    <!-- 花藝學習tab -->
-                    <li class="footer-border-right">
-                        <div class="tab__title">
-                            <h4>花藝推薦</h4>
-                        </div>
-                        <div class="course-container tab__content">
-                            <div class="col-md-4 course-card padding-15 masonry__item">
-
-                                <div class="course-card-image-holder" style="background-image:url('img/ball_planet.jpg'); filter: grayscale(2%)
-                        contrast(83%);">
+                          <div class="course-card-image-holder" style="background-image:url('img/ball_planet.jpg'); filter: grayscale(2%)
+                  contrast(83%);">
 
 
-                                </div>
+                          </div>
 
-                                <div class=" col-md-4 course-card-image-caption-1">
-                                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
+                          <div class=" col-md-4 course-card-image-caption-1">
+                              <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
 加入體驗</a>
-                                </div>
-                                <div class="col-md-4 course-card-image-caption-2">
-                                    <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                          </div>
+                          <div class="col-md-4 course-card-image-caption-2">
+                              <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
 3小時</a>
-                                </div>
+                          </div>
 
-                                <div class="course-card-profile">
-                                    <a href="#"><img src="img/green_logo.jpg" /></a>
-                                </div>
+                          <div class="course-card-profile">
+                              <a href="#"><img src="img/green_logo.jpg" /></a>
+                          </div>
 
-                                <div class="course-card-caption padding-15">
-                                    <h3>文青苔球</h3>
-                                    <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
-                                </div>
+                          <div class="course-card-caption padding-15">
+                              <h3>文青苔球</h3>
+                              <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
+                          </div>
 
-                                <div class="course-card-footer padding-15">
-                                    <div class="col-md-8 course-card-footer-participant">
+                          <div class="course-card-footer padding-15">
+                              <div class="col-md-8 course-card-footer-participant">
 
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                        <p>200人參與</p>
-                                    </div>
-                                    <div class="col-md-4 course-card-footer-btn">
-                                        <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
-                                    </div>
-                                </div>
+                                  <i class="fa fa-users" aria-hidden="true"></i>
+                                  <p>200人參與</p>
+                              </div>
+                              <div class="col-md-4 course-card-footer-btn">
+                                  <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
+                              </div>
+                          </div>
 
-                            </div>
-                            <div class="col-md-4 course-card padding-15">
+                      </div>
+                      <div class="col-md-4 course-card padding-15">
 
-                                <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
-                        contrast(83%);">
+                          <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
+                  contrast(83%);">
 
 
-                                </div>
+                          </div>
 
-                                <div class=" col-md-4 course-card-image-caption-1">
-                                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
+                          <div class=" col-md-4 course-card-image-caption-1">
+                              <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
 加入體驗</a>
-                                </div>
-                                <div class="col-md-4 course-card-image-caption-2">
-                                    <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                          </div>
+                          <div class="col-md-4 course-card-image-caption-2">
+                              <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
 3小時</a>
-                                </div>
+                          </div>
 
-                                <div class="course-card-profile">
-                                    <a href="#"><img src="img/mk_logo.jpg" /></a>
-                                </div>
+                          <div class="course-card-profile">
+                              <a href="#"><img src="img/mk_logo.jpg" /></a>
+                          </div>
 
-                                <div class="course-card-caption padding-15">
-                                    <h3>夏洛克.福爾摩斯</h3>
-                                    <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
-                                    </p>
-                                </div>
+                          <div class="course-card-caption padding-15">
+                              <h3>夏洛克.福爾摩斯</h3>
+                              <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
+                              </p>
+                          </div>
 
-                                <div class="course-card-footer padding-15">
-                                    <div class="col-md-8 course-card-footer-participant">
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                        <p>200人參與</p>
-                                    </div>
-                                    <div class="col-md-4 course-card-footer-btn">
-                                        <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
+                          <div class="course-card-footer padding-15">
+                              <div class="col-md-8 course-card-footer-participant">
+                                  <i class="fa fa-users" aria-hidden="true"></i>
+                                  <p>200人參與</p>
+                              </div>
+                              <div class="col-md-4 course-card-footer-btn">
+                                  <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="kids">
+                  <div class="course-container tab__content">
+                      <div class="col-md-4 course-card padding-15 masonry__item">
 
-
-                    <!-- 親子學習tab -->
-                    <li class="footer-border-right">
-                        <div class="tab__title">
-                            <h4>親子推薦</h4>
-                        </div>
-                        <div class="course-container tab__content">
-                            <div class="col-md-4 course-card padding-15 masonry__item">
-
-                                <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
-                        contrast(83%);">
+                          <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
+                  contrast(83%);">
 
 
-                                </div>
+                          </div>
 
-                                <div class=" col-md-4 course-card-image-caption-1">
-                                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
+                          <div class=" col-md-4 course-card-image-caption-1">
+                              <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
 加入體驗</a>
-                                </div>
-                                <div class="col-md-4 course-card-image-caption-2">
-                                    <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                          </div>
+                          <div class="col-md-4 course-card-image-caption-2">
+                              <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
 3小時</a>
-                                </div>
+                          </div>
 
-                                <div class="course-card-profile">
-                                    <a href="#"><img src="img/mk_logo.jpg" /></a>
-                                </div>
+                          <div class="course-card-profile">
+                              <a href="#"><img src="img/mk_logo.jpg" /></a>
+                          </div>
 
-                                <div class="course-card-caption padding-15">
-                                    <h3>夏洛克.福爾摩斯</h3>
-                                    <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
-                                </div>
+                          <div class="course-card-caption padding-15">
+                              <h3>夏洛克.福爾摩斯</h3>
+                              <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
+                          </div>
 
-                                <div class="course-card-footer padding-15">
-                                    <div class="col-md-8 course-card-footer-participant">
+                          <div class="course-card-footer padding-15">
+                              <div class="col-md-8 course-card-footer-participant">
 
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                        <p>200人參與</p>
-                                    </div>
-                                    <div class="col-md-4 course-card-footer-btn">
-                                        <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
-                                    </div>
-                                </div>
+                                  <i class="fa fa-users" aria-hidden="true"></i>
+                                  <p>200人參與</p>
+                              </div>
+                              <div class="col-md-4 course-card-footer-btn">
+                                  <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
+                              </div>
+                          </div>
 
-                            </div>
-                            <div class="col-md-4 course-card padding-15 masonry__item" data-masonry-filter="親子課程">
+                      </div>
+                      <div class="col-md-4 course-card padding-15 masonry__item" data-masonry-filter="親子課程">
 
-                                <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
-                        contrast(83%);">
+                          <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
+                  contrast(83%);">
 
 
-                                </div>
+                          </div>
 
-                                <div class=" col-md-4 course-card-image-caption-1">
-                                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
+                          <div class=" col-md-4 course-card-image-caption-1">
+                              <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
 加入體驗</a>
-                                </div>
-                                <div class="col-md-4 course-card-image-caption-2">
-                                    <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                          </div>
+                          <div class="col-md-4 course-card-image-caption-2">
+                              <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
 3小時</a>
-                                </div>
+                          </div>
 
-                                <div class="course-card-profile">
-                                    <a href="#"><img src="img/mk_logo.jpg" /></a>
-                                </div>
+                          <div class="course-card-profile">
+                              <a href="#"><img src="img/mk_logo.jpg" /></a>
+                          </div>
 
-                                <div class="course-card-caption padding-15">
-                                    <h3>夏洛克.福爾摩斯</h3>
-                                    <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
-                                    </p>
-                                </div>
+                          <div class="course-card-caption padding-15">
+                              <h3>夏洛克.福爾摩斯</h3>
+                              <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
+                              </p>
+                          </div>
 
-                                <div class="course-card-footer padding-15">
-                                    <div class="col-md-8 course-card-footer-participant">
+                          <div class="course-card-footer padding-15">
+                              <div class="col-md-8 course-card-footer-participant">
 
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                        <p>200人參與</p>
-                                    </div>
-                                    <div class="col-md-4 course-card-footer-btn">
-                                        <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
-                                    </div>
-                                </div>
+                                  <i class="fa fa-users" aria-hidden="true"></i>
+                                  <p>200人參與</p>
+                              </div>
+                              <div class="col-md-4 course-card-footer-btn">
+                                  <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
+                              </div>
+                          </div>
 
-                            </div>
-                            <div class="col-md-4 course-card padding-15 masonry__item" data-masonry-filter="手作課程">
+                      </div>
+                      <div class="col-md-4 course-card padding-15 masonry__item" data-masonry-filter="手作課程">
 
-                                <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
-                        contrast(83%);">
+                          <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
+                  contrast(83%);">
 
 
-                                </div>
+                          </div>
 
-                                <div class=" col-md-4 course-card-image-caption-1">
-                                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
+                          <div class=" col-md-4 course-card-image-caption-1">
+                              <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
 加入體驗</a>
-                                </div>
-                                <div class="col-md-4 course-card-image-caption-2">
-                                    <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                          </div>
+                          <div class="col-md-4 course-card-image-caption-2">
+                              <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
 3小時</a>
-                                </div>
+                          </div>
 
-                                <div class="course-card-profile">
-                                    <a href="#"><img src="img/mk_logo.jpg" /></a>
-                                </div>
+                          <div class="course-card-profile">
+                              <a href="#"><img src="img/mk_logo.jpg" /></a>
+                          </div>
 
-                                <div class="course-card-caption padding-15">
-                                    <h3>夏洛克.福爾摩斯</h3>
-                                    <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
-                                    </p>
-                                </div>
+                          <div class="course-card-caption padding-15">
+                              <h3>夏洛克.福爾摩斯</h3>
+                              <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
+                              </p>
+                          </div>
 
-                                <div class="course-card-footer padding-15">
-                                    <div class="col-md-8 course-card-footer-participant">
+                          <div class="course-card-footer padding-15">
+                              <div class="col-md-8 course-card-footer-participant">
 
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                        <p>200人參與</p>
-                                    </div>
-                                    <div class="col-md-4 course-card-footer-btn">
-                                        <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
-                                    </div>
-                                </div>
+                                  <i class="fa fa-users" aria-hidden="true"></i>
+                                  <p>200人參與</p>
+                              </div>
+                              <div class="col-md-4 course-card-footer-btn">
+                                  <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
+                              </div>
+                          </div>
 
-                            </div>
-                            <div class="col-md-4 course-card padding-15">
+                      </div>
+                      <div class="col-md-4 course-card padding-15">
 
-                                <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
-                        contrast(83%);">
+                          <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
+                  contrast(83%);">
 
 
-                                </div>
+                          </div>
 
-                                <div class=" col-md-4 course-card-image-caption-1">
-                                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
+                          <div class=" col-md-4 course-card-image-caption-1">
+                              <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
 加入體驗</a>
-                                </div>
-                                <div class="col-md-4 course-card-image-caption-2">
-                                    <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                          </div>
+                          <div class="col-md-4 course-card-image-caption-2">
+                              <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
 3小時</a>
-                                </div>
+                          </div>
 
-                                <div class="course-card-profile">
-                                    <a href="#"><img src="img/mk_logo.jpg" /></a>
-                                </div>
+                          <div class="course-card-profile">
+                              <a href="#"><img src="img/mk_logo.jpg" /></a>
+                          </div>
 
-                                <div class="course-card-caption padding-15">
-                                    <h3>夏洛克.福爾摩斯</h3>
-                                    <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
-                                    </p>
-                                </div>
+                          <div class="course-card-caption padding-15">
+                              <h3>夏洛克.福爾摩斯</h3>
+                              <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
+                              </p>
+                          </div>
 
-                                <div class="course-card-footer padding-15">
-                                    <div class="col-md-8 course-card-footer-participant">
+                          <div class="course-card-footer padding-15">
+                              <div class="col-md-8 course-card-footer-participant">
 
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                        <p>200人參與</p>
-                                    </div>
-                                    <div class="col-md-4 course-card-footer-btn">
-                                        <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
-                                    </div>
-                                </div>
+                                  <i class="fa fa-users" aria-hidden="true"></i>
+                                  <p>200人參與</p>
+                              </div>
+                              <div class="col-md-4 course-card-footer-btn">
+                                  <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
+                              </div>
+                          </div>
 
-                            </div>
-                        </div>
-                    </li>
+                      </div>
+                  </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="bakery">
+                  <div class="course-container tab__content">
+                      <div class="col-md-4 course-card padding-15">
 
-                    <!-- 烘焙學習tab -->
-                    <li>
-                        <div class="tab__title ">
-                            <h4>烘焙推薦</h4>
-                        </div>
-                        <div class="course-container tab__content">
-                            <div class="col-md-4 course-card padding-15">
-
-                                <div class="course-card-image-holder" style="background-image:url('img/cake.jpg'); filter: grayscale(2%)
-                        contrast(83%);">
+                          <div class="course-card-image-holder" style="background-image:url('img/cake.jpg'); filter: grayscale(2%)
+                  contrast(83%);">
 
 
-                                </div>
+                          </div>
 
-                                <div class=" col-md-4 course-card-image-caption-1">
-                                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
+                          <div class=" col-md-4 course-card-image-caption-1">
+                              <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
 加入體驗</a>
-                                </div>
-                                <div class="col-md-4 course-card-image-caption-2">
-                                    <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                          </div>
+                          <div class="col-md-4 course-card-image-caption-2">
+                              <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
 3小時</a>
-                                </div>
+                          </div>
 
-                                <div class="course-card-profile">
-                                    <a href="#"><img src="img/mk_logo.jpg" /></a>
-                                </div>
+                          <div class="course-card-profile">
+                              <a href="#"><img src="img/mk_logo.jpg" /></a>
+                          </div>
 
-                                <div class="course-card-caption padding-15">
-                                    <h3>夏洛克.福爾摩斯</h3>
-                                    <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
-                                </div>
+                          <div class="course-card-caption padding-15">
+                              <h3>夏洛克.福爾摩斯</h3>
+                              <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
+                          </div>
 
-                                <div class="course-card-footer padding-15">
-                                    <div class="col-md-8 course-card-footer-participant">
+                          <div class="course-card-footer padding-15">
+                              <div class="col-md-8 course-card-footer-participant">
 
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                        <p>200人參與</p>
-                                    </div>
-                                    <div class="col-md-4 course-card-footer-btn">
-                                        <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
-                                    </div>
-                                </div>
+                                  <i class="fa fa-users" aria-hidden="true"></i>
+                                  <p>200人參與</p>
+                              </div>
+                              <div class="col-md-4 course-card-footer-btn">
+                                  <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
+                              </div>
+                          </div>
 
-                            </div>
-                            <div class="col-md-4 course-card padding-15 masonry__item" data-masonry-filter="親子課程">
+                      </div>
+                      <div class="col-md-4 course-card padding-15 masonry__item" data-masonry-filter="親子課程">
 
-                                <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
-                        contrast(83%);">
+                          <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
+                  contrast(83%);">
 
 
-                                </div>
+                          </div>
 
-                                <div class=" col-md-4 course-card-image-caption-1">
-                                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
+                          <div class=" col-md-4 course-card-image-caption-1">
+                              <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
 加入體驗</a>
-                                </div>
-                                <div class="col-md-4 course-card-image-caption-2">
-                                    <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                          </div>
+                          <div class="col-md-4 course-card-image-caption-2">
+                              <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
 3小時</a>
-                                </div>
+                          </div>
 
-                                <div class="course-card-profile">
-                                    <a href="#"><img src="img/mk_logo.jpg" /></a>
-                                </div>
+                          <div class="course-card-profile">
+                              <a href="#"><img src="img/mk_logo.jpg" /></a>
+                          </div>
 
-                                <div class="course-card-caption padding-15">
-                                    <h3>夏洛克.福爾摩斯</h3>
-                                    <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
-                                    </p>
-                                </div>
+                          <div class="course-card-caption padding-15">
+                              <h3>夏洛克.福爾摩斯</h3>
+                              <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
+                              </p>
+                          </div>
 
-                                <div class="course-card-footer padding-15">
-                                    <div class="col-md-8 course-card-footer-participant">
+                          <div class="course-card-footer padding-15">
+                              <div class="col-md-8 course-card-footer-participant">
 
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                        <p>200人參與</p>
-                                    </div>
-                                    <div class="col-md-4 course-card-footer-btn">
-                                        <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
-                                    </div>
-                                </div>
+                                  <i class="fa fa-users" aria-hidden="true"></i>
+                                  <p>200人參與</p>
+                              </div>
+                              <div class="col-md-4 course-card-footer-btn">
+                                  <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
+                              </div>
+                          </div>
 
-                            </div>
-                            <div class="col-md-4 course-card padding-15 masonry__item" data-masonry-filter="手作課程">
+                      </div>
+                      <div class="col-md-4 course-card padding-15 masonry__item" data-masonry-filter="手作課程">
 
-                                <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
-                        contrast(83%);">
+                          <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
+                  contrast(83%);">
 
 
-                                </div>
+                          </div>
 
-                                <div class=" col-md-4 course-card-image-caption-1">
-                                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
+                          <div class=" col-md-4 course-card-image-caption-1">
+                              <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
 加入體驗</a>
-                                </div>
-                                <div class="col-md-4 course-card-image-caption-2">
-                                    <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                          </div>
+                          <div class="col-md-4 course-card-image-caption-2">
+                              <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
 3小時</a>
-                                </div>
+                          </div>
 
-                                <div class="course-card-profile">
-                                    <a href="#"><img src="img/mk_logo.jpg" /></a>
-                                </div>
+                          <div class="course-card-profile">
+                              <a href="#"><img src="img/mk_logo.jpg" /></a>
+                          </div>
 
-                                <div class="course-card-caption padding-15">
-                                    <h3>夏洛克.福爾摩斯</h3>
-                                    <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
-                                    </p>
-                                </div>
+                          <div class="course-card-caption padding-15">
+                              <h3>夏洛克.福爾摩斯</h3>
+                              <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
+                              </p>
+                          </div>
 
-                                <div class="course-card-footer padding-15">
-                                    <div class="col-md-8 course-card-footer-participant">
+                          <div class="course-card-footer padding-15">
+                              <div class="col-md-8 course-card-footer-participant">
 
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                        <p>200人參與</p>
-                                    </div>
-                                    <div class="col-md-4 course-card-footer-btn">
-                                        <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
-                                    </div>
-                                </div>
+                                  <i class="fa fa-users" aria-hidden="true"></i>
+                                  <p>200人參與</p>
+                              </div>
+                              <div class="col-md-4 course-card-footer-btn">
+                                  <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
+                              </div>
+                          </div>
 
-                            </div>
-                            <div class="col-md-4 course-card padding-15 masonry__item" data-masonry-filter="手作課程">
+                      </div>
+                      <div class="col-md-4 course-card padding-15 masonry__item" data-masonry-filter="手作課程">
 
-                                <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
-                        contrast(83%);">
+                          <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
+                  contrast(83%);">
 
 
-                                </div>
+                          </div>
 
-                                <div class=" col-md-4 course-card-image-caption-1">
-                                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
+                          <div class=" col-md-4 course-card-image-caption-1">
+                              <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
 加入體驗</a>
-                                </div>
-                                <div class="col-md-4 course-card-image-caption-2">
-                                    <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                          </div>
+                          <div class="col-md-4 course-card-image-caption-2">
+                              <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
 3小時</a>
-                                </div>
+                          </div>
 
-                                <div class="course-card-profile">
-                                    <a href="#"><img src="img/mk_logo.jpg" /></a>
-                                </div>
+                          <div class="course-card-profile">
+                              <a href="#"><img src="img/mk_logo.jpg" /></a>
+                          </div>
 
-                                <div class="course-card-caption padding-15">
-                                    <h3>夏洛克.福爾摩斯</h3>
-                                    <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
-                                    </p>
-                                </div>
+                          <div class="course-card-caption padding-15">
+                              <h3>夏洛克.福爾摩斯</h3>
+                              <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
+                              </p>
+                          </div>
 
-                                <div class="course-card-footer padding-15">
-                                    <div class="col-md-8 course-card-footer-participant">
+                          <div class="course-card-footer padding-15">
+                              <div class="col-md-8 course-card-footer-participant">
 
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                        <p>200人參與</p>
-                                    </div>
-                                    <div class="col-md-4 course-card-footer-btn">
-                                        <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
-                                    </div>
-                                </div>
+                                  <i class="fa fa-users" aria-hidden="true"></i>
+                                  <p>200人參與</p>
+                              </div>
+                              <div class="col-md-4 course-card-footer-btn">
+                                  <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
+                              </div>
+                          </div>
 
-                            </div>
-                            <div class="col-md-4 course-card padding-15 masonry__item" data-masonry-filter="花藝課程">
+                      </div>
+                      <div class="col-md-4 course-card padding-15 masonry__item" data-masonry-filter="花藝課程">
 
-                                <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
-                        contrast(83%);">
+                          <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
+                  contrast(83%);">
 
 
-                                </div>
+                          </div>
 
-                                <div class=" col-md-4 course-card-image-caption-1">
-                                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
+                          <div class=" col-md-4 course-card-image-caption-1">
+                              <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
 加入體驗</a>
-                                </div>
-                                <div class="col-md-4 course-card-image-caption-2">
-                                    <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                          </div>
+                          <div class="col-md-4 course-card-image-caption-2">
+                              <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
 3小時</a>
-                                </div>
+                          </div>
 
-                                <div class="course-card-profile">
-                                    <a href="#"><img src="img/mk_logo.jpg" /></a>
-                                </div>
+                          <div class="course-card-profile">
+                              <a href="#"><img src="img/mk_logo.jpg" /></a>
+                          </div>
 
-                                <div class="course-card-caption padding-15">
-                                    <h3>夏洛克.福爾摩斯</h3>
-                                    <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
-                                    </p>
-                                </div>
+                          <div class="course-card-caption padding-15">
+                              <h3>夏洛克.福爾摩斯</h3>
+                              <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
+                              </p>
+                          </div>
 
-                                <div class="course-card-footer padding-15">
-                                    <div class="col-md-8 course-card-footer-participant">
+                          <div class="course-card-footer padding-15">
+                              <div class="col-md-8 course-card-footer-participant">
 
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                        <p>200人參與</p>
-                                    </div>
-                                    <div class="col-md-4 course-card-footer-btn">
-                                        <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
-                                    </div>
-                                </div>
+                                  <i class="fa fa-users" aria-hidden="true"></i>
+                                  <p>200人參與</p>
+                              </div>
+                              <div class="col-md-4 course-card-footer-btn">
+                                  <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
+                              </div>
+                          </div>
 
-                            </div>
-                            <div class="col-md-4 course-card padding-15">
+                      </div>
+                      <div class="col-md-4 course-card padding-15">
 
-                                <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
-                        contrast(83%);">
+                          <div class="course-card-image-holder" style="background-image:url('img/class6.jpg'); filter: grayscale(2%)
+                  contrast(83%);">
 
 
-                                </div>
+                          </div>
 
-                                <div class=" col-md-4 course-card-image-caption-1">
-                                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
+                          <div class=" col-md-4 course-card-image-caption-1">
+                              <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>
 加入體驗</a>
-                                </div>
-                                <div class="col-md-4 course-card-image-caption-2">
-                                    <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                          </div>
+                          <div class="col-md-4 course-card-image-caption-2">
+                              <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
 3小時</a>
-                                </div>
+                          </div>
 
-                                <div class="course-card-profile">
-                                    <a href="#"><img src="img/mk_logo.jpg" /></a>
-                                </div>
+                          <div class="course-card-profile">
+                              <a href="#"><img src="img/mk_logo.jpg" /></a>
+                          </div>
 
-                                <div class="course-card-caption padding-15">
-                                    <h3>夏洛克.福爾摩斯</h3>
-                                    <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
-                                    </p>
-                                </div>
+                          <div class="course-card-caption padding-15">
+                              <h3>夏洛克.福爾摩斯</h3>
+                              <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。</p>
+                              </p>
+                          </div>
 
-                                <div class="course-card-footer padding-15">
-                                    <div class="col-md-8 course-card-footer-participant">
+                          <div class="course-card-footer padding-15">
+                              <div class="col-md-8 course-card-footer-participant">
 
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                        <p>200人參與</p>
-                                    </div>
-                                    <div class="col-md-4 course-card-footer-btn">
-                                        <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+                                  <i class="fa fa-users" aria-hidden="true"></i>
+                                  <p>200人參與</p>
+                              </div>
+                              <div class="col-md-4 course-card-footer-btn">
+                                  <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
             </div>
+          </div>
         </section>
 
         <section class="blank-section"></section>
@@ -1111,8 +1104,6 @@
                 </ul>
             </div>
         </section>
-    </div>
-
     <!-- Bootstrap js -->
     <script src="js/bootstrap.min.js"></script>
 

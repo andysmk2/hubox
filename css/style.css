@@ -206,33 +206,6 @@ body, html, section {
     margin: auto;
 }
 
-.tabs-content {
-    padding: 0px 0px !important;
-    width: 1200px;
-    margin: auto;
-    margin-top: 55px !important;
-}
-
-.tabs {
-    text-align: right;
-    margin-bottom: 0px !important;
-}
-
-.tabs>li {
-    padding: 5px 10px;
-    margin: 0px 0px !important;
-}
-
-.tabs-container {
-    margin-bottom: 0px !important;
-    width: 1200px;
-    margin: auto;
-}
-
-.tab__title>h4 {
-    margin-bottom: 0px !important;
-}
-
 .course-header {
     width: 1200px;
     margin: auto;
@@ -243,6 +216,24 @@ body, html, section {
     margin: auto;
     height: auto;
     overflow: hidden;
+}
+
+.course-container>.nav-tabs{
+ padding-right: 0px;
+ border-bottom: none;
+}
+
+.course-container>.nav-tabs>.active>a,.course-container>.nav-tabs>.active>a:focus,.course-container>.nav-tabs>.active>a:hover{
+  border: none;
+}
+
+.course-container>.nav-tabs>li{
+  float: right;
+}
+.course-container>.nav-tabs>li>a{
+  font-size: 20px;
+  padding: 0px 15px;
+  color: #6d6d6d;
 }
 
 .course-card {
@@ -721,11 +712,6 @@ body, html, section {
     padding-top: 56px;
 }
 
-.vendor-page-course-content>button {
-    font-size: 17px;
-    vertical-align: middle;
-}
-
 .vendor-page-gallery-item{
   height: 190px;
   padding: 15px 15px;
@@ -742,4 +728,13 @@ body, html, section {
 .vendor-page-gallery-video{
   height: 380px;
   padding: 15px 15px;
+}
+
+.vendor-page-course-container>.nav-tabs{
+  margin-left: 21px;
+}
+
+.vendor-page-course-container>.nav>li>a{
+  font-size: 17px;
+  color: #6d6d6d;
 }
