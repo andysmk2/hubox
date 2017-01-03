@@ -2067,7 +2067,7 @@ button:focus {
 }
 
 .tabs>.active, .tabs:hover {
-    opacity: 1;
+    /*opacity: 1;*/
 }
 
 .tabs .tab__title {
@@ -3423,13 +3423,13 @@ section.space-bottom--sm, footer.space-bottom--sm {
     }
 }
 
-div[class*='col-']>div[class*='col-']:first-child {
+/*div[class*='col-']>div[class*='col-']:first-child {
     padding-left: 0;
-}
+}*/
 
-div[class*='col-']>div[class*='col-']:last-child {
+/*div[class*='col-']>div[class*='col-']:last-child {
     padding-right: 0;
-}
+}*/
 
 @media all and (max-width: 767px) {
     .col-xs-6:nth-child(odd) {
