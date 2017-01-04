@@ -15,6 +15,10 @@ body, html, section {
     filter: grayscale(2%) contrast(83%);
 }
 
+.course-card-image-holder>a>img {
+  filter: grayscale(2%) contrast(83%);
+}
+
 
 /*padding*/
 
@@ -257,8 +261,9 @@ body, html, section {
     max-width: 100%;
 }
 
-.course-card-image-holder>img {
+.course-card-image-holder>a>img {
     max-height: 100%;
+    max-width: 100%;
     min-height: 100%;
     min-width: 100%;
 }
@@ -573,40 +578,40 @@ body, html, section {
 }
 
 
-/*vendor-page-course-section*/
+/*vendor-page-tab-section*/
 
-.vendor-page-course-section {
+.vendor-page-tab-section {
     width: 100%;
     margin: auto;
     height: auto;
     background-color: #fff;
 }
 
-.vendor-page-course-container {
+.vendor-page-tab-container {
     width: 1200px;
     margin: auto;
     height: auto;
     overflow: hidden;
 }
 
-.vendor-page-course-container>.tabs-container>ul>li>.btn {
+.vendor-page-tab-container>.tabs-container>ul>li>.btn {
     border-radius: 0px !important;
     border: none !important;
 }
 
-.vendor-page-course-container>.tabs-container>.tabs>.active {
+.vendor-page-tab-container>.tabs-container>.tabs>.active {
     border-bottom: 3px solid red;
     transition: none !important;
 }
 
-.vendor-page-course-container>.tabs-container>.tabs {
+.vendor-page-tab-container>.tabs-container>.tabs {
     text-align: left;
     padding: 0px 0px;
     margin-left: 20px;
     border-bottom: 1px solid rgba(109, 109, 109, 0.29);
 }
 
-.vendor-page-course-container>.tabs-container>ul>li>.tab__title>h4 {
+.vendor-page-tab-container>.tabs-container>ul>li>.tab__title>h4 {
     font-size: 21px;
 }
 
@@ -615,55 +620,55 @@ body, html, section {
     padding-right: 0px;
 }
 
-.vendor-page-course-container>.tabs-container>.tabs>li {
+.vendor-page-tab-container>.tabs-container>.tabs>li {
     padding: 5px 30px;
 }
 
-.vendor-page-course-container>.tabs-container>.tabs-content {
+.vendor-page-tab-container>.tabs-container>.tabs-content {
     margin-top: 0px !important;
 }
 
-.vendor-page-course-title {
+.vendor-page-tab-title {
     border-bottom: 1px solid rgba(109, 109, 109, 0.29);
     padding: 35px 0px;
     margin-left: 20px;
     margin-bottom: 10px;
 }
 
-.vendor-page-course-title>li {
+.vendor-page-tab-title>li {
     color: #6d6d6d
 }
 
-.vendor-page-course-item-1 {
+.vendor-page-tab-item-1 {
     padding-right: 0px !important;
     padding-left: 30px !important;
     display: inline-block;
 }
 
-.vendor-page-course-item-1>h4 {
+.vendor-page-tab-item-1>h4 {
     margin-bottom: 0px;
 }
 
-.vendor-page-course-item-2 {
+.vendor-page-tab-item-2 {
     padding-right: 0px !important;
     padding-left: 630px !important;
     display: inline-block;
 }
 
-.vendor-page-course-item-2>h4 {
+.vendor-page-tab-item-2>h4 {
     margin-bottom: 0px;
 }
 
-.vendor-page-course-item-3 {
+.vendor-page-tab-item-3 {
     padding-left: 152px !important;
     display: inline-block;
 }
 
-.vendor-page-course-item-3>h4 {
+.vendor-page-tab-item-3>h4 {
     margin-bottom: 0px;
 }
 
-.vendor-page-course-item>h4 {
+.vendor-page-tab-item>h4 {
     color: #6d6d6d;
 }
 
@@ -671,24 +676,24 @@ body, html, section {
     color: #6d6d6d;
 }
 
-.vendor-page-course-container>.tabs-container>.tabs>li {
+.vendor-page-tab-container>.tabs-container>.tabs>li {
     opacity: 100;
 }
 
-.vendor-page-course-content {
+.vendor-page-tab-content {
     height: 152px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.vendor-page-course-image {
+.vendor-page-tab-image {
     height: 152px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 45px !important;
 }
 
-.vendor-page-course-content>h4 {
+.vendor-page-tab-content>h4 {
     line-height: 135px;
     margin-bottom: 0px !important;
     font-weight: 600;
@@ -696,12 +701,12 @@ body, html, section {
     color: #6d6d6d;
 }
 
-.vendor-page-course-content>.rate_row {
+.vendor-page-tab-content>.rate_row {
     line-height: 135px;
     margin-bottom: 0px !important;
 }
 
-.vendor-page-course-image>img {
+.vendor-page-tab-image>img {
     max-width: 100%;
     min-width: 100%;
     max-height: 100%;
@@ -709,7 +714,7 @@ body, html, section {
 }
 
 .course-container>.col-md-1 {
-    padding-top: 56px;
+    padding-top: 60px;
 }
 
 .vendor-page-gallery-item{
@@ -730,11 +735,11 @@ body, html, section {
   padding: 15px 15px;
 }
 
-.vendor-page-course-container>.nav-tabs{
+.vendor-page-tab-container>.nav-tabs{
   margin-left: 21px;
 }
 
-.vendor-page-course-container>.nav>li>a{
+.vendor-page-tab-container>.nav>li>a{
   font-size: 17px;
   color: #6d6d6d;
 }
