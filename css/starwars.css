@@ -22,7 +22,7 @@
 .rate_star{
     color: #cccccc;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 28px;
     padding: 0px 3px;
 }
 .rate_star.over{
