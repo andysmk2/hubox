@@ -1093,14 +1093,14 @@ body, html, section {
 }
 
 .course-page-image-tab-container {
-    width: 900px;
+    width: 800px;
     margin: auto;
     height: auto;
     overflow: hidden;
 }
 
 .course-page-course-tab-container {
-    width: 900px;
+    width: 800px;
     margin: auto;
     height: auto;
     overflow: hidden;
@@ -1108,6 +1108,7 @@ body, html, section {
 
 .course-page-course-tab-container>.col-md-1 {
     padding-top: 76px;
+    padding-left: 0px;
 }
 
 .course-page-course-tab-container>.course-page-tab-content>.rate_row>.rate_star {
@@ -1116,22 +1117,20 @@ body, html, section {
 }
 
 .course-page-register-icon {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 24px 10px !important;
 }
 
 .course-page-register-icon>i {
-    font-size: 22px;
+    font-size: 27px;
 }
 
 .course-page-register-caption {
     text-align: right;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 24px 10px !important;
 }
 
 .course-page-register-caption>p {
-    font-size: 17px;
+    font-size: 22px;
     margin-bottom: 0px;
 }
 
@@ -1189,4 +1188,12 @@ body, html, section {
 
 .course-page-related-title>h2{
   margin-bottom: 0px;
+}
+
+.course-page-border-top{
+  border-top: 1px solid #ddd;
+}
+
+.course-page-calendar-container{
+  height: 345px;
 }
