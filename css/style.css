@@ -1229,6 +1229,10 @@ input[type=radio]{
   padding: 10px 5px !important;
 }
 
+.course-page-buy-container{
+  padding: 10px 5px !important;
+}
+
 .course-page-share-btn{
   background-color: #3B5998;
   width: 100%;
@@ -1273,10 +1277,10 @@ input[type=radio]{
   line-height: 2;
 }
 
-.course-page-share-container>.course-page-share-btn:hover{
-  border: 1px solid #3B5998;
+.course-page-share-container>button:hover{
+  border: 1px solid #3B5998 !important;
 }
 
-.course-page-buy-container>.course-page-share-btn:hover{
-  border: 1px solid #a94442;
+.course-page-buy-container>button:hover{
+  border: 1px solid #a94442 !important;
 }
