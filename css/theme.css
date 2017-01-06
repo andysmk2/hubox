@@ -1693,11 +1693,7 @@ form+form {
     margin-top: 30px;
 }
 
-label {
-    margin: 0;
-    font-size: 1em;
-    font-weight: 400;
-}
+
 
 input[type="text"], input[type="email"], input[type="password"], textarea, select, input[type="tel"], input[type="url"], input[type="search"] {
     padding: 0.8125em;
@@ -1835,9 +1831,6 @@ button:focus {
     background: #425cbb;
 }
 
-.input-checkbox label, .input-radio label, .input-select label {
-    display: block;
-}
 
 .input-checkbox {
     padding: 0;
@@ -4399,24 +4392,6 @@ textarea {
     background: #f8f8f8;
 }
 
-label {
-    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
-    color: #343434;
-    font-weight: 600;
-    font-variant-ligatures: common-ligatures;
-    margin-bottom: 0;
-    font-size: 0.625em;
-    line-height: 2.6em;
-    margin-top: 0;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 400;
-    margin-bottom: 2.36363636363636em;
-    display: block;
-    margin: 0;
-    margin-left: 2.6em;
-}
-
 label+input {
     margin-top: 0.8125em;
 }
@@ -4486,10 +4461,6 @@ button.btn--loading:after {
 
 .form--square input, .form--square textarea, .form--square button {
     border-radius: 5px;
-}
-
-.input-checkbox label {
-    margin-left: 0;
 }
 
 .input-checkbox .inner {

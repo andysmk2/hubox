@@ -78,17 +78,55 @@
     <!-- Cover-section starts here-->
     <section class="course-page-cover-section">
 
-        <div class="course-page-cover-holder">
-            <img src="img/sky_walker2.png" />
-        </div>
+        <header id="myCarousel" class="carousel slide">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for Slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <!-- Set the first background image using inline CSS below. -->
+                    <div class="fill">
+                        <img src="img/sky_walker2.png">
+                    </div>
+                </div>
+
+                <div class="item">
+                    <!-- Set the second background image using inline CSS below. -->
+                    <div class="fill">
+                        <img src="img/mk/mk2.jpg" />
+                    </div>
+                </div>
+
+                <div class="item">
+                    <!-- Set the third background image using inline CSS below. -->
+                    <div class="fill">
+                        <img src="img/mk/mk3.jpg" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="icon-next"></span>
+            </a>
+
+        </header>
         <div class="course-page-profile-container">
             <div class="col-md-12">
                 <h1>天行者造型燈</h1>
             </div>
-            <div class="col-md-2 course-page-image-holder">
+            <div class="col-md-1 course-page-profile-image">
                 <a href="#"><img src="img/mk_logo.jpg" /></a>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 course-page-profile-caption">
                 <a href="#"><h3>木客微光</h3></a>
             </div>
             <div class="col-md-1">
@@ -98,23 +136,19 @@
                 <a href="#"><h3>手作學習</h3></a>
             </div>
         </div>
-
     </section>
     <!-- Cover-section ends here-->
 
     <section class="blank-section"></section>
 
     <!-- Course-page-tab-section starts here -->
-    <section class="course-page-tab-section">
+    <section class="course-page-content-section">
         <div class="course-page-content-container">
             <div class="course-page-tab-container col-md-8">
                 <!-- Tab nav starts here-->
                 <ul class="nav nav-tabs" id="myTabs" role="tablist">
                     <li role="presentation" class="active">
                         <a href="#intro" aria-controls="intro" role="tab" data-toggle="tab">學習介紹</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="#image" aria-controls="image" role="tab" data-toggle="tab">學習剪影</a>
                     </li>
                     <li role="presentation">
                         <a href="#others" aria-controls="others" role="tab" data-toggle="tab">其他學習</a>
@@ -147,71 +181,8 @@
                                                 </p>
                         </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane fade" id="image">
-                        <div class="course-page-image-tab-container tab__content">
-                            <div class="col-md-6 course-page-gallery-hot">
-                                <a href="img/class6.jpg" data-toggle="lightbox">
-                                    <img alt="image" src="img/class6.jpg" />
-                                </a>
-                            </div>
-                            <div class="col-md-3 course-page-gallery-item">
-                                <a href="img/mk/mk1.jpg" data-toggle="lightbox">
-                                    <img src="img/mk/mk1.jpg" />
-                                </a>
-                            </div>
-                            <div class="col-md-3 course-page-gallery-item">
-                                <a href="img/mk/mk2.jpg" data-toggle="lightbox">
-                                    <img src="img/mk/mk2.jpg" />
-                                </a>
-                            </div>
-                            <div class="col-md-3 course-page-gallery-item">
-                                <a href="img/mk/mk3.jpg" data-toggle="lightbox">
-                                    <img src="img/mk/mk3.jpg" />
-                                </a>
-                            </div>
-                            <div class="col-md-3 course-page-gallery-item">
-                                <a href="img/mk/mk4.jpg" data-toggle="lightbox">
-                                    <img src="img/mk/mk4.jpg" />
-                                </a>
-                            </div>
-                            <div class="col-md-3 course-page-gallery-item">
-                                <a href="img/mk/mk5.jpg" data-toggle="lightbox">
-                                    <img src="img/mk/mk5.jpg" />
-                                </a>
-                            </div>
-                            <div class="col-md-3 course-page-gallery-item">
-                                <a href="img/mk/mk6.jpg" data-toggle="lightbox">
-                                    <img src="img/mk/mk6.jpg" />
-                                </a>
-                            </div>
-                            <div class="col-md-3 course-page-gallery-item">
-                                <a href="img/mk/mk7.jpg" data-toggle="lightbox">
-                                    <img src="img/mk/mk7.jpg" />
-                                </a>
-                            </div>
-                            <div class="col-md-3 course-page-gallery-item">
-                                <a href="img/mk/mk8.jpg" data-toggle="lightbox">
-                                    <img src="img/mk/mk8.jpg" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                     <div role="tabpanel" class="tab-pane fade" id="others">
                         <div class="course-page-course-tab-container">
-                            <!-- course page course top item starts here-->
-                            <!-- <ul class="course-page-tab-title">
-                          <li class="course-page-tab-item-1">
-                              <h4>內容</h4>
-                          </li>
-                          <li class="course-page-tab-item-2">
-                              <h4>評分</h4>
-                          </li>
-                          <li class="course-page-tab-item-3">
-                              <h4>價格</h4>
-                          </li>
-                      </ul> -->
-                            <!-- course page course top item ends here-->
-
                             <!-- course page course-1 starts here-->
                             <div class="col-md-5 course-page-tab-image">
                                 <a href="#"><img src="img/class6.jpg" /></a>
@@ -271,8 +242,42 @@
                 </div>
                 <!-- Tab panes ends here-->
             </div>
-            <div class="col-md-4">
-                <div class="col-md-12 course-page-calendar-container"></div>
+            <!-- course-page-content-statistic starts here-->
+            <div class="col-md-4 course-page-statistic-container">
+
+                <div class="panel-group col-md-12 course-page-register-caption course-page-border-bottom" id="accordion" role="tablist" aria-multiselectable="true">
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              <i class="fa fa-calendar fa-fw" aria-hidden="true"></i>
+                            </a>
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              學習日期
+                              </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="radio">
+                              <label><input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                2月2日（三）13:00~17:00
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label><input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                2月2日（三）13:00~17:00
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label><input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                2月2日（三）13:00~17:00
+                              </label>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
                 <div class="col-md-2 course-page-register-icon">
                     <i class="fa fa-users fa-fw" aria-hidden="true"></i>
                 </div>
@@ -288,25 +293,34 @@
                 </div>
 
                 <div class="col-md-2 course-page-register-icon course-page-border-top">
-                  <i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>
+                    <i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>
                 </div>
                 <div class="col-md-10 course-page-register-caption course-page-border-top">
                     <p>學習地址：<span>台北市</span></p>
                 </div>
 
                 <div class="col-md-2 course-page-register-icon course-page-border-top">
-                  <i class="fa fa-credit-card" aria-hidden="true"></i>
+                    <i class="fa fa-credit-card" aria-hidden="true"></i>
                 </div>
                 <div class="col-md-10 course-page-register-caption course-page-border-top">
                     <p>學習價格：TWD<span>2,500</span></p>
                 </div>
+
+                <div class="col-md-12 course-page-share-container">
+                    <button class="course-page-share-btn">
+                   <i class="fa fa-facebook col-md-2" aria-hidden="true"></i>
+                   <h3 class="col-md-10">分享此學習</h3>
+                 </button>
+                </div>
+
+                <div class="col-md-12 course-page-share-container">
+                    <button class="course-page-buy-btn">
+                   <i class="fa fa-book col-md-2" aria-hidden="true"></i>
+                   <h3 class="col-md-10">購買此學習</h3>
+                 </button>
+                </div>
             </div>
-            <div class="col-md-12">
-            <a href="#"><i class="course-page-bottom-social-fb fa fa-facebook-official fa-3x fa-fw" aria-hidden="true"></i></a>
-            <a href="#"><i class="course-page-bottom-social-google fa fa-youtube-square fa-3x fa-fw" aria-hidden="true"></i></a>
-            <a href="#"><i class="course-page-bottom-social-ig fa fa-instagram fa-3x fa-fw" aria-hidden="true"></i></a>
-            <a href="#"><i class="course-page-bottom-social-google fa fa-google-plus fa-3x fa-fw" aria-hidden="true"></i></a>
-            </div>
+            <!-- course-page-content-statistic ends here-->
         </div>
         </div>
     </section>
@@ -315,115 +329,115 @@
     <section class="blank-section"></section>
 
     <section class="course-page-related-section">
-      <div class="course-page-related-container">
-        <div class="col-md-12 course-page-related-title">
-          <h2>為您推薦</h2>
+        <div class="course-page-related-container">
+            <div class="col-md-12 course-page-related-title">
+                <h2>為您推薦</h2>
+            </div>
+            <div class="col-md-4 course-card padding-15">
+
+                <div class="course-card-image-holder">
+                    <a href="#"><img src="img/class6.jpg" /></a>
+                </div>
+
+                <div class=" col-md-4 course-card-image-caption-1">
+                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>加入體驗</a>
+                </div>
+
+                <div class="col-md-4 course-card-image-caption-2">
+                    <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>3小時</a>
+                </div>
+
+                <div class="course-card-profile">
+                    <a href="#"><img src="img/mk_logo.jpg" /></a>
+                </div>
+
+                <div class="course-card-caption padding-15">
+                    <a href="#"><h3>夏洛克.福爾摩斯</h3></a>
+                    <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。
+                    </p>
+                </div>
+
+                <div class="course-card-footer padding-15">
+                    <div class="col-md-8 course-card-footer-participant">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <p>200人參與</p>
+                    </div>
+                    <div class="col-md-4 course-card-footer-btn">
+                        <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 course-card padding-15">
+
+                <div class="course-card-image-holder">
+                    <a href="#"><img src="img/class6.jpg" /></a>
+                </div>
+
+                <div class=" col-md-4 course-card-image-caption-1">
+                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>加入體驗</a>
+                </div>
+
+                <div class="col-md-4 course-card-image-caption-2">
+                    <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>3小時</a>
+                </div>
+
+                <div class="course-card-profile">
+                    <a href="#"><img src="img/mk_logo.jpg" /></a>
+                </div>
+
+                <div class="course-card-caption padding-15">
+                    <a href="#"><h3>夏洛克.福爾摩斯</h3></a>
+                    <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。
+                    </p>
+                </div>
+
+                <div class="course-card-footer padding-15">
+                    <div class="col-md-8 course-card-footer-participant">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <p>200人參與</p>
+                    </div>
+                    <div class="col-md-4 course-card-footer-btn">
+                        <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 course-card padding-15">
+
+                <div class="course-card-image-holder">
+                    <a href="#"><img src="img/class6.jpg" /></a>
+                </div>
+
+                <div class=" col-md-4 course-card-image-caption-1">
+                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>加入體驗</a>
+                </div>
+
+                <div class="col-md-4 course-card-image-caption-2">
+                    <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>3小時</a>
+                </div>
+
+                <div class="course-card-profile">
+                    <a href="#"><img src="img/mk_logo.jpg" /></a>
+                </div>
+
+                <div class="course-card-caption padding-15">
+                    <a href="#"><h3>夏洛克.福爾摩斯</h3></a>
+                    <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。
+                    </p>
+                </div>
+
+                <div class="course-card-footer padding-15">
+                    <div class="col-md-8 course-card-footer-participant">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <p>200人參與</p>
+                    </div>
+                    <div class="col-md-4 course-card-footer-btn">
+                        <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4 course-card padding-15">
-
-            <div class="course-card-image-holder">
-                <a href="#"><img src="img/class6.jpg" /></a>
-            </div>
-
-            <div class=" col-md-4 course-card-image-caption-1">
-                <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>加入體驗</a>
-            </div>
-
-            <div class="col-md-4 course-card-image-caption-2">
-                <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>3小時</a>
-            </div>
-
-            <div class="course-card-profile">
-                <a href="#"><img src="img/mk_logo.jpg" /></a>
-            </div>
-
-            <div class="course-card-caption padding-15">
-                <a href="#"><h3>夏洛克.福爾摩斯</h3></a>
-                <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。
-                </p>
-            </div>
-
-            <div class="course-card-footer padding-15">
-                <div class="col-md-8 course-card-footer-participant">
-                    <i class="fa fa-users" aria-hidden="true"></i>
-                    <p>200人參與</p>
-                </div>
-                <div class="col-md-4 course-card-footer-btn">
-                    <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4 course-card padding-15">
-
-            <div class="course-card-image-holder">
-                <a href="#"><img src="img/class6.jpg" /></a>
-            </div>
-
-            <div class=" col-md-4 course-card-image-caption-1">
-                <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>加入體驗</a>
-            </div>
-
-            <div class="col-md-4 course-card-image-caption-2">
-                <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>3小時</a>
-            </div>
-
-            <div class="course-card-profile">
-                <a href="#"><img src="img/mk_logo.jpg" /></a>
-            </div>
-
-            <div class="course-card-caption padding-15">
-                <a href="#"><h3>夏洛克.福爾摩斯</h3></a>
-                <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。
-                </p>
-            </div>
-
-            <div class="course-card-footer padding-15">
-                <div class="col-md-8 course-card-footer-participant">
-                    <i class="fa fa-users" aria-hidden="true"></i>
-                    <p>200人參與</p>
-                </div>
-                <div class="col-md-4 course-card-footer-btn">
-                    <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4 course-card padding-15">
-
-            <div class="course-card-image-holder">
-                <a href="#"><img src="img/class6.jpg" /></a>
-            </div>
-
-            <div class=" col-md-4 course-card-image-caption-1">
-                <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>加入體驗</a>
-            </div>
-
-            <div class="col-md-4 course-card-image-caption-2">
-                <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>3小時</a>
-            </div>
-
-            <div class="course-card-profile">
-                <a href="#"><img src="img/mk_logo.jpg" /></a>
-            </div>
-
-            <div class="course-card-caption padding-15">
-                <a href="#"><h3>夏洛克.福爾摩斯</h3></a>
-                <p>解析木的自然紋路以生命構築小小的文明光華。分享工業LOFT風特色單品、燈飾、DIY零組件、層板;歡迎與木客們一同發掘各種美好的溫度。
-                </p>
-            </div>
-
-            <div class="course-card-footer padding-15">
-                <div class="col-md-8 course-card-footer-participant">
-                    <i class="fa fa-users" aria-hidden="true"></i>
-                    <p>200人參與</p>
-                </div>
-                <div class="col-md-4 course-card-footer-btn">
-                    <a class="btn btn-danger" href="#" role="button">TWD 1,800</a>
-                </div>
-            </div>
-        </div>
-      </div>
     </section>
     <!-- footer-setion starts here -->
     <section class="footer-setion">
