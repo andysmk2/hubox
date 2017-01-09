@@ -356,6 +356,19 @@ body, html, section {
     background-color: #fff;
 }
 
+.corporate-form-container{
+  padding: 100px 30px !important;
+}
+.corporate-form-container>.form-horizontal>.form-group>label{
+  color: #fff;
+  font-size: 20px;
+}
+
+.corporate-form-container>.form-horizontal>.form-group{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .corporate-container {
     width: 100%;
     margin: auto;
@@ -587,7 +600,6 @@ body, html, section {
     letter-spacing: .8px;
 }
 
-
 /*vendor-page-tab-section*/
 
 .vendor-page-tab-section {
@@ -701,6 +713,35 @@ body, html, section {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px !important;
+}
+
+.course-container>.vendor-page-gallery-video>.background-image-holder{
+  position: absolute;
+  width: 570px;
+  height: 350px;
+  top: 0;
+  left: 0;
+  margin-top: 15px;
+  margin-left: 15px;
+  background-size: cover !important;
+  background-position: 50% 50% !important;
+  z-index: 0;
+  transition: 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  opacity: 0;
+  background: #232323;
+}
+
+.modal-content>img{
+max-width: 100%;
+min-width: 100%;
+max-height: 100%;
+min-height: 100%;
+}
+
+.modal{
+  top: 120px !important;
 }
 
 .vendor-page-tab-content>h4 {
