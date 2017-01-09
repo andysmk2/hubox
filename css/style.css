@@ -5,6 +5,7 @@ body, html, section {
 }
 
 
+
 /*img-filter*/
 
 .hover-element>img {
@@ -120,7 +121,7 @@ body, html, section {
 }
 
 .blank-section {
-    height: 30px;
+    height: 45px;
     background-color: #fff;
 }
 
@@ -354,32 +355,111 @@ body, html, section {
     width: 100%;
     height: auto;
     background-color: #fff;
+    background-size: cover;
 }
 
 .corporate-form-container{
-  padding: 100px 30px !important;
-}
-.corporate-form-container>.form-horizontal>.form-group>label{
-  color: #fff;
-  font-size: 20px;
+  width: 450px;
+  position: absolute;
+  top: 2520px;
+  left: 970px;
 }
 
-.corporate-form-container>.form-horizontal>.form-group{
+.form-group-container{
+  background-color: #fff;
+  padding: 10px 40px 40px 40px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius:25px;
+}
+
+.form-group-container>.corporate-btn-container>button{
+  width: 100%;
+  height: 45px;
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+  background-color:rgba(25, 115, 25, 0.57);
+  font-size: 18px;
+}
+
+.form-group-container>.corporate-btn-container>button:hover{
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.2s;
+  -webkit-transition:box-shadow 0.2s;
+}
+
+.corporate-btn-container{
+  text-align: center;
+  margin-top: 25px;
+}
+
+.form-header{
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  background-color: #EEEEEE;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.form-header>h2{
+  margin-bottom: 0px;
+  color: #474747;
+}
+
+.corporate-form-container>form{
+  overflow: visible;
+  box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.5);
+}
+
+.corporate-form-container>.form-horizontal>.form-group-container>.form-group{
   margin-left: 0px;
   margin-right: 0px;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+.corporate-form-container>.form-horizontal>.form-group-container>.form-group>label{
+  color: #c3c3c3;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.corporate-form-container>.form-horizontal>.form-group-container>.form-group>input{
+  margin-top: 15px;
+  height: 40px;
+  box-shadow: none;
+  border-bottom: 1px solid #EDEDED;
+  border-radius: 0px;
+  padding: 0px;
+}
+
+.corporate-form-container>.form-horizontal>.form-group-container>.form-group>textarea{
+  margin-top: 3px;
+  margin-bottom: 0px;
+  box-shadow: none;
+  border: 1px solid #EDEDED;
+  padding: 0px;
+}
+
+.corporate-form-container>.form-horizontal>.form-group-container>.form-group>input[placeholder]{
+  font-size: 18px;
 }
 
 .corporate-container {
-    width: 100%;
+    width: 1200px;
     margin: auto;
     height: 650px;
     overflow: hidden;
-    background-size: cover;
+    z-index: 999;
 }
 
 .corporate-caption-top {
     top: 210px;
-    padding-left: 130px !important;
 }
 
 .corporate-caption-top>h3 {
@@ -389,7 +469,6 @@ body, html, section {
 }
 
 .corporate-caption-bottom {
-    padding-left: 130px !important;
     top: 210px;
 }
 
@@ -1324,4 +1403,62 @@ input[type=radio]{
 
 .course-page-buy-container>button:hover{
   border: 1px solid #a94442 !important;
+}
+
+/*allc page starts here*/
+
+.allc-page-cover-caption-container{
+  position: absolute;
+  width: 1200px;
+  top: 330px;
+  left: 253px;
+}
+
+.allc-page-cover-caption-container>h1{
+  color: #fff;
+  font-weight: 900;
+}
+
+.allc-page-search-container{
+
+}
+
+.allc-page-search-bar-container>input[placeholder]{
+  font-size: 19px;
+}
+
+.allc-page-search-bar-container{
+  padding: 5px 8px !important;
+  border-bottom: 1px solid #c3c3c3 !important;
+}
+
+.allc-page-search-bar-container>i{
+  font-size: 25px;
+  vertical-align: middle;
+  padding: 2px 0px;
+}
+
+.allc-page-search-bar-container>input:focus{
+  box-shadow: none !important;
+}
+
+.allc-page-search-bar{
+  height: auto !important;
+  border-radius: 0px !important;
+  padding: 0px !important;
+}
+
+.allc-page-search-btn{
+  text-align: center;
+  padding: 5px 10px !important;
+}
+
+.allc-page-search-btn>button{
+  border: none;
+  background-color: rgba(25, 115, 25, 0.57);
+  border-radius: 25px;
+  color: #fff;
+  font-size: 18px;
+  width: 100%;
+  height: 100%;
 }
