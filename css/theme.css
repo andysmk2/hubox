@@ -3405,15 +3405,7 @@ section.space-bottom--sm, footer.space-bottom--sm {
 }
 
 @media all and (max-width: 767px) {
-    section, footer, section.section--even {
-        padding: 4.875em 0;
-    }
-    section.space--lg, footer.space--lg, section.section--even.space--lg {
-        padding: 4.875em 0;
-    }
-    section.space--xlg, footer.space--xlg, section.section--even.space--xlg {
-        padding: 7.3125em 0;
-    }
+    
 }
 
 /*div[class*='col-']>div[class*='col-']:first-child {
