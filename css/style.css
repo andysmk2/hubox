@@ -1,3 +1,14 @@
+                /*bootstrap remodal*/
+                .collapsing{
+                  width: 100% !important;
+                }
+
+                h1,h2,h3,h4,h5{
+                  margin-bottom: 0px !important;
+                }
+
+
+
                 /*main-elements*/
 
                 body, html, section {
@@ -225,6 +236,7 @@
                 }
 
                 .course-container>.nav-tabs {
+                    padding-left: 425px;
                     padding-right: 0px;
                     border-bottom: none;
                 }
@@ -234,7 +246,7 @@
                 }
 
                 .course-container>.nav-tabs>li {
-                    float: right;
+
                 }
 
                 .course-container>.nav-tabs>li>a {
@@ -900,7 +912,7 @@
                     top: 440px;
                     width: 35%;
                     height: auto;
-                    background-color: rgba(255, 255, 255, 0.89);
+                    background-color: rgba(255, 255, 255, 0.74);
                     border: 1px solid rgba(255, 255, 255, 0.89);
                     border-top-right-radius: 20px;
                     border-bottom-right-radius: 20px;
@@ -911,11 +923,12 @@
                 .course-page-profile-container>.col-md-12 {
                     padding-left: 2px !important;
                     padding-right: 2px !important;
+                    padding-bottom: 15px;
                 }
 
                 .course-page-profile-container>.col-md-12>h1 {
                     color: #6d6d6d;
-                    margin-bottom: 20px;
+                    margin-bottom: 5px;
                     font-weight: 900;
                 }
 
@@ -950,11 +963,14 @@
                     color: #6d6d6d;
                     margin-top: 10px;
                 }
-
+                .course-page-profile-image-container{
+                  display: inline-block;
+                }
                 .course-page-profile-image {
-                    width: 44px !important;
-                    height: 44px !important;
+                    width: 44px;
+                    height: 44px;
                     padding: 0px 0px !important;
+                    display: inline-block;
                 }
 
                 .course-page-profile-image>a>img {
@@ -964,9 +980,29 @@
                     min-height: 100%;
                     border-radius: 99px;
                 }
+                .course-page-profile-icon-container{
+                  display: inline-block;
+                  padding: 0px 50px;
+                }
+                .course-page-profile-icon{
+                  display: inline-block;
+                }
+                .course-page-profile-icon>a{
+                  font-size: 33px;
+                }
 
                 .course-page-profile-caption {
                     padding-right: 0px !important;
+                    display: inline-block;
+                }
+                .course-page-cover-profile-caption {
+                    position: absolute;
+                    top: 560px;
+                    left: 315px;
+                }
+
+                .course-page-cover-profile-caption>h3 {
+                    color: #fff;
                 }
 
                 .course-page-cover-profile>div>a>img {
@@ -977,15 +1013,7 @@
                     border-radius: 99px;
                 }
 
-                .course-page-cover-profile-caption {
-                    position: absolute;
-                    top: 560px;
-                    left: 315px;
-                }
 
-                .course-page-cover-profile-caption>h3 {
-                    color: #fff;
-                }
 
                 .course-page-cover-social {
                     position: absolute;
@@ -1010,20 +1038,21 @@
                 /*course-page-tab-section*/
 
                 .course-page-content-section {
-                    width: 100%;
+                    width: 1200px;
                     margin: auto;
                     height: auto;
                     background-color: #fff;
                 }
 
                 .course-page-content-container {
-                    width: 1200px;
+                    width: 100%;
                     margin: auto;
                     overflow: hidden;
                 }
 
                 .course-page-tab-container {
                     height: auto;
+                    right: 33.33%;
                     overflow: hidden;
                     padding-left: 0px !important;
                     padding-right: 0px !important;
@@ -1121,6 +1150,18 @@
                     padding-top: 10px;
                     padding-bottom: 10px;
                 }
+                .course-page-tab-content-1{
+
+                }
+                .course-page-tab-content-2{
+
+                }
+                .course-page-tab-content-3{
+
+                }
+                .course-page-tab-content-4{
+
+                }
 
                 .course-page-tab-image {
                     height: 190px;
@@ -1161,6 +1202,14 @@
                 .course-page-intro-container>p>img {
                     max-width: 100%;
                 }
+                .course-page-info-container{
+                    padding: 15px;
+                }
+                .course-page-info-container>p{
+                  font-size: 18px;
+                  line-height: 2;
+                  margin-bottom: 0px;
+                }
 
                 .course-page-tab-container>.nav-tabs {
                     margin-left: 15px;
@@ -1180,10 +1229,14 @@
                 }
 
                 .course-page-course-tab-container {
-                    width: 800px;
+                    width: 100%;
                     margin: auto;
                     height: auto;
                     overflow: hidden;
+                }
+
+                .course-page-course-tab-info{
+                  display: inline-block;
                 }
 
                 .course-page-course-tab-container>.col-md-1 {
@@ -1290,14 +1343,15 @@
                 }
 
                 .course-page-related-section {
-                    width: 100%;
+                    width: 1200px;
+                    margin: auto;
                     height: auto;
                     overflow: hidden;
                     border-top: 1px solid #ddd;
                 }
 
                 .course-page-related-container {
-                    width: 1200px;
+                    width: 100%;
                     height: auto;
                     margin: auto;
                     overflow: hidden;
@@ -1322,7 +1376,200 @@
 
                 .course-page-statistic-container {
                     padding-top: 42px;
+                    left: 66.66%;
                 }
+
+
+                /*course-page-statistic-container-r starts here*/
+
+                .course-page-statistic-container-r{
+                  width: 100%;
+                }
+                .course-page-statistic-price-r{
+                  text-align: center;
+                  background-color: lightblue;
+                  padding: 15px 10px;
+                  overflow: hidden;
+                }
+                .course-page-statistic-price-r>.course-page-statistic-price-label-r>p{
+                  font-size: 30px;
+                  padding: 0px 5px;
+                  margin-bottom: 0px;
+                  display: inline-block;
+                }
+                .course-page-statistic-price-r>.course-page-statistic-price-icon-r>i{
+                  font-size: 35px;
+                  margin-bottom: 0px;
+                  display: inline-block;
+                }
+                .course-page-statistic-price-icon-r{
+                 display: inline-block;
+                }
+                .course-page-statistic-price-label-r{
+                 display: inline-block;
+                }
+                .course-page-statistic-pt-holder-r{
+                  text-align: center;
+                  padding: 25px 15px;
+                }
+                .course-page-statistic-people-r{
+                  text-align: center;
+                  display: inline-block;
+                  padding: 0px 40px;
+                }
+                .course-page-statistic-people-icon-r{
+                  width: 120px;
+                  height: 120px;
+                  border-radius: 99px;
+                  background-color: lightblue;
+                  padding: 32px 0px;
+                }
+                .course-page-statistic-people-label-r{
+                  padding-top: 10px;
+                }
+                .course-page-statistic-people-label-r>.label{
+                  font-size: 18px;
+                }
+                .course-page-statistic-time-r{
+                  text-align: center;
+                  display: inline-block;
+                  padding: 0px 40px;
+                }
+                .course-page-statistic-time-icon-r{
+                  width: 120px;
+                  height: 120px;
+                  border-radius: 99px;
+                  background-color: lightblue;
+                  padding: 32px 0px;
+                }
+                .course-page-statistic-time-label-r{
+                  padding-top: 10px;
+                }
+                .course-page-statistic-time-label-r>.label{
+                  font-size: 18px;
+                }
+                .course-page-statistic-place-r{
+                  text-align: center;
+                  display: inline-block;
+                  padding: 0px 40px;
+                }
+                .course-page-statistic-place-icon-r{
+                  width: 120px;
+                  height: 120px;
+                  border-radius: 99px;
+                  background-color: lightblue;
+                  padding: 32px 0px;
+
+                }
+                .course-page-statistic-place-label-r{
+                  padding-top: 10px;
+                }
+                .course-page-statistic-place-label-r>.label{
+                  font-size: 18px;
+                }
+                .course-page-statistic-date-r{
+                  text-align: center;
+                  background-color: lightblue;
+                  padding: 15px 10px;
+                  overflow: hidden;
+                }
+                .course-page-statistic-date-r>.course-page-statistic-date-label-r>p{
+                  font-size: 30px;
+                  padding: 0px 5px;
+                  margin-bottom: 0px;
+                  display: inline-block;
+                }
+                .course-page-statistic-date-r>.course-page-statistic-date-icon-r>i{
+                  font-size: 35px;
+                  margin-bottom: 0px;
+                  display: inline-block;
+                }
+                .course-page-statistic-date-icon-r{
+                 display: inline-block;
+                }
+                .course-page-statistic-date-label-r{
+                 display: inline-block;
+                }
+                .course-page-date-collapse-container{
+                  text-align: center;
+                }
+                .course-page-date-collapse-container>.radio>label{
+                  font-size: 30px;
+                  padding-left: 0px;
+                }
+                .course-page-share-buy-container{
+                  text-align: center;
+                }
+                .course-page-share-container-r {
+                    padding: 10px 0px !important;
+                    width: 100%;
+                }
+                .course-page-share-btn-r {
+                    background-color: #3B5998;
+                    text-align: center;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .course-page-share-btn-r>i {
+                    display: inline-block;
+                    padding-top: 5px;
+                    font-size: 60px;
+                    color: #fff;
+                    vertical-align: bottom;
+                }
+
+                .course-page-share-btn-r>h3 {
+                    display: inline-block;
+                    color: #fff;
+                    margin-bottom: 0px;
+                    line-height: 2;
+                    font-size: 30px;
+                }
+
+                .course-page-buy-btn-r{
+                    background-color: #a94442;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 40px;
+                    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
+                }
+                .course-page-buy-container-r {
+                    padding: 10px 0px !important;
+                    width: 800px;
+                    text-align: center;
+                    position: fixed;
+                    bottom: 10px;
+                    z-index: 999;
+                }
+                .course-page-buy-btn-r>i {
+                    display: inline-block;
+                    padding-top: 5px;
+                    font-size: 60px;
+                    color: #fff;
+                    vertical-align: bottom;
+                }
+
+                .course-page-buy-btn-r>h3 {
+                    display: inline-block;
+                    color: #fff;
+                    margin-bottom: 0px;
+                    line-height: 2;
+                    font-size: 30px;
+                }
+
+                .course-page-share-container-r>button:hover {
+                    border: 1px solid #3B5998 !important;
+                }
+
+                .course-page-buy-container-r>button:hover {
+                    border: 1px solid #a94442 !important;
+                }
+
+
+
+
+                /*course-page-statistic-container-r ends here*/
 
                 .course-page-share-container {
                     padding: 10px 5px !important;
@@ -1397,7 +1644,12 @@
                     font-weight: 900;
                 }
 
-                .allc-page-search-container {}
+                .allc-page-search-container {
+
+                }
+                .allc-page-tab-container{
+                  padding-left: 326px !important;
+                }
 
                 .allc-page-search-bar-container>input[placeholder] {
                     font-size: 19px;
@@ -1452,1121 +1704,4 @@
                 .vendor-container>.masonry__filters>ul>li {
                     font-size: 20px;
                     font-style: normal;
-                }
-                /*resposive starts here*/
-
-                @media screen and (max-width:1367px) {
-                  .corporate-form-container {
-                        right: 100px;
-                  }
-                }
-
-                @media screen and (max-width:1200px) {
-                    .navbar-custom {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .navbar-container {
-                        width: 950px;
-                        margin: auto;
-                    }
-                    .navbar-container>.navbar-collapse>ul>li {
-                        font-size: 18px;
-                    }
-                    .vendor-section {
-                        width: 950px;
-                        margin: auto;
-                    }
-                    .vendor-card {
-                        height: 212px;
-                    }
-                    .course-section {
-                        width: 950px;
-                        margin: auto;
-                    }
-                    .course-card-profile {
-                        width: 65px;
-                        height: 65px;
-                        left: 225px;
-                        top: 180px;
-                    }
-                    .course-card-image-caption-1>a {
-                        font-size: 16px;
-                    }
-                    .course-card-image-caption-2>a {
-                        font-size: 16px;
-                    }
-                    .course-card-footer-btn>.btn {
-                        padding: 6px 4px;
-                    }
-                    .corporate-form-container {
-                        top: 2355px;
-                        right: 50px;
-                    }
-                }
-
-                @media screen and (max-width:992px) {
-                    .navbar-custom {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .navbar-container {
-                        width: 708px;
-                        margin: auto;
-                    }
-                    .vendor-section {
-                        width: 850px;
-                        margin: auto;
-                    }
-                    .vendor-card {
-                      width: 405px;
-                      height: 400px;
-                      display: inline-block;
-                      margin: auto;
-                    }
-                    .vendor-header{
-                      text-align: center;
-                    }
-                    .course-section {
-                        width: 850px;
-                        margin: auto;
-                    }
-                    .course-container>.nav-tabs>li>a {
-                       font-size: 22px;
-                       padding: 0px 60px;
-                    }
-                    .course-container>.col-md-3{
-                      text-align: center;
-                    }
-                    .course-card-profile {
-                       width: 80px;
-                       height: 80px;
-                       left: 730px;
-                       top: 182px;
-                    }
-                    /*.course-card-caption>p{
-                      font-size: 20px;
-                    }*/
-
-                    .course-card-image-caption-1>a {
-                       font-size: 20px;
-                    }
-                    .course-card-image-caption-2>a {
-                       font-size: 20px;
-                    }
-                    .course-card-image-caption-2{
-                      left: 140px;
-                    }
-                    .course-card-footer-participant{
-                      display: inline-block;
-                      font-size: 15px;
-                    }
-                    .course-card-footer-btn{
-                      display: inline-block;
-                      float: right;
-                    }
-                    .course-card-footer-btn>a{
-                      font-size: 15px;
-                    }
-                    .corporate-form-container{
-                      width: 400px;
-                      top: 5250px;
-                      right: 40px;
-                    }
-                    .footer-item-container{
-                      text-align: center;
-                      padding-bottom: 0px;
-                    }
-                    .footer-copyright-container{
-                      text-align: center;
-                      padding-top: 0px;
-                    }
-                    .footer-social-container{
-                      text-align: center;
-                    }
-                }
-
-                @media screen and (max-width:927px) {
-                  .corporate-caption-bottom {
-                     width: 330px;
-                  }
-                }
-
-                @media screen and (max-width:769px) {
-                    .navbar-custom {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .navbar-container {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .vendor-section {
-                        width: 650px;
-                        margin: auto;
-                    }
-                    .vendor-header {
-                        text-align: center;
-                    }
-                    .vendor-header>h2 {
-                        font-size: 50px;
-                    }
-                    .vendor-card {
-                        height: 650px;
-                        width: 650px;
-
-                    }
-                    .vendor-card-profile-holder {
-                        top: 450px;
-                    }
-                    .vendor-card-profile-caption>a>h4 {
-                        font-size: 40px;
-                    }
-                    .vendor-card-profile {
-                        width: 100px;
-                        height: 100px;
-                    }
-                    .course-section {
-                        width: 650px;
-                    }
-
-                    .course-card-profile {
-                        width: 80px;
-                        height: 80px;
-                        left: 530px;
-                    }
-                    .course-container>.col-md-3 {
-                        text-align: center;
-                    }
-                    .course-container>.col-md-3>h2 {
-                        font-size: 50px;
-                    }
-                    .course-container>.nav-tabs {
-                        padding-left: 15px;
-                        padding-right: 15px;
-                    }
-                    .course-container>.nav-tabs>li>a {
-                        font-size: 25px;
-                        padding: 0px 25px;
-                    }
-                    .course-card-profile {
-                        left: 535px;
-                    }
-                    .course-card-footer-participant {
-                        display: inline-block;
-                    }
-                    .course-card-footer-btn {
-                        display: inline-block;
-                        float: right;
-                        padding: 0px !important;
-                    }
-                    .corporate-form-container {
-                        width: 350px;
-                        position: absolute;
-                        top: 8250px;
-                        right: 40px;
-                    }
-                    .form-group-container {
-                        padding: 10px 40px 10px 40px;
-                    }
-                    .corporate-caption-bottom>h1 {
-                        color: #fff;
-                        font-size: 50px;
-                        font-weight: 600;
-                    }
-                    .footer-setion {
-                        height: 150px;
-                        padding-top: 10px;
-                        padding-bottom: 10px;
-                    }
-                    .footer-container>ul {
-                        text-align: center;
-                    }
-                    .footer-item {
-                        padding: 0px 7px;
-                    }
-                    .footer-copyright-container {
-                        padding-top: 0px;
-                        text-align: center;
-                        ;
-                    }
-                    .footer-social-container {
-                        text-align: center;
-                        margin-top: 15px;
-                    }
-                }
-
-                @media screen and (max-width:736px) {
-                    section{
-                      padding: 0px;
-                    }
-                    .navbar-custom {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .navbar-container {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .vendor-section {
-                        width: 650px;
-                        margin: auto;
-                    }
-                    .vendor-header {
-                        text-align: center;
-                    }
-                    .vendor-header>h2 {
-                        font-size: 50px;
-                    }
-                    .vendor-card {
-                        height: 650px
-                    }
-                    .vendor-card-profile-holder {
-                        top: 450px;
-                    }
-                    .vendor-card-profile-caption>a>h4 {
-                        font-size: 40px;
-                    }
-                    .vendor-card-profile {
-                        width: 100px;
-                        height: 100px;
-                    }
-                    .course-section {
-                        width: 650px;
-                    }
-
-                    .course-card-profile {
-                        width: 80px;
-                        height: 80px;
-                        left: 530px;
-                    }
-                    .course-container>.col-md-3 {
-                        text-align: center;
-                    }
-                    .course-container>.col-md-3>h2 {
-                        font-size: 50px;
-                    }
-                    .course-container>.nav-tabs {
-                        padding-left: 15px;
-                        padding-right: 15px;
-                    }
-                    .course-container>.nav-tabs>li>a {
-                        font-size: 25px;
-                        padding: 0px 25px;
-                    }
-                    .course-card-profile {
-                        left: 535px;
-                    }
-                    .course-card-footer-participant {
-                        display: inline-block;
-                    }
-                    .course-card-footer-btn {
-                        display: inline-block;
-                        float: right;
-                        padding: 0px !important;
-                    }
-                    .corporate-form-container {
-                        width: 350px;
-                        position: absolute;
-                        top: 8310px;
-                        right: 40px;
-                    }
-                    .corporate-container>.col-md-12{
-                      padding-left: 50px;
-                    }
-                    .corporate-caption-bottom {
-                        width: 300px;
-                    }
-                    .form-group-container {
-                        padding: 10px 40px 10px 40px;
-                    }
-                    .corporate-form-container>.form-horizontal>.form-group-container>.form-group>input{
-                      margin-bottom: 5px;
-                    }
-                    .corporate-caption-bottom>h1 {
-                        color: #fff;
-                        font-size: 50px;
-                        font-weight: 600;
-                    }
-                    .footer-setion {
-                        height: 150px;
-                        padding-top: 10px;
-                        padding-bottom: 10px;
-                    }
-                    .footer-container>ul {
-                        text-align: center;
-                    }
-                    .footer-item {
-                        padding: 0px 7px;
-                    }
-                    .footer-copyright-container {
-                        padding-top: 5px;
-                        text-align: center;
-                        ;
-                    }
-                    .footer-social-container {
-                        text-align: center;
-                        margin-top: 5px;
-                    }
-                }
-
-                @media screen and (max-width:733px) {
-                    .navbar-custom {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .navbar-container {
-                        width: 100%;
-                        margin-left: 0px;
-                    }
-                    .vendor-section {
-                        width: 600px;
-                        margin: auto;
-                    }
-                    .course-section {
-                        width: 600px;
-                        margin: auto;
-                    }
-                    .course-card-profile {
-                        left: 485px;
-                    }
-                    .course-container>.nav-tabs>li>a {
-                       font-size: 22px;
-                    }
-                }
-
-                @media screen and (max-width:694px) {
-                    .navbar-custom {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .navbar-container {
-                        width: 494px;
-                        margin: auto;
-                    }
-                    .vendor-section {
-                        width: 550px;
-                        margin: auto;
-                    }
-                    .vendor-header>h2 {
-                        font-size: 40px;
-                    }
-                    .vendor-card {
-                        width: 100%;
-                        height: 550px;
-                        margin: auto;
-                    }
-                    .vendor-card-profile-holder {
-                        top: 390px;
-                    }
-                    .course-card-profile {
-                        left: 435px;
-                    }
-                    .course-section {
-                        width: 550px;
-                        margin: auto;
-                    }
-                    .course-container>.nav-tabs>li>a {
-                        font-size: 18px;
-                        padding: 0px 26px;
-                    }
-                    .course-container>.col-md-3>h2{
-                      font-size: 40px;
-                    }
-                    .corporate-form-container {
-                      top: 7580px;
-                    }
-                    .footer-copyright-container {
-                      padding-top: 10px;
-                    }
-                }
-
-                @media screen and (max-width:669px) {
-                    .navbar-custom {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .navbar-container {
-                        width: 477px;
-                        margin-left: 0px;
-                    }
-                    .vendor-section {
-                        width: 580px;
-                        margin: auto;
-                    }
-                    .vendor-card {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .vendor-card-profile-holder {
-                        top: 390px;
-                    }
-                    .vendor-card-profile-caption>a>h4 {
-                        font-size: 30px;
-                    }
-                    .course-section {
-                        width: 580px;
-                        margin: auto;
-                    }
-                    .course-container>.nav-tabs>li>a {
-                        font-size: 23px;
-                        padding: 0px 20px;
-                    }
-                    .course-card-profile {
-                        left: 460px;
-                    }
-                    .corporate-form-container {
-                       width: 350px;
-                       position: absolute;
-                       top: 7600px;
-                       right: 40px;
-                    }
-                    .form-group-container {
-                        padding: 10px 20px 10px 20px;
-                    }
-                    .form-header {
-                        padding: 10px;
-                    }
-                    .corporate-container>.col-md-12 {
-                        padding: 0px 15px;
-                    }
-                    .corporate-caption-top {
-                        top: 150px;
-                    }
-                    .corporate-caption-bottom {
-                        top: 150px;
-                    }
-                }
-
-                @media screen and (max-width:642px) {
-                    .navbar-custom {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .navbar-container {
-                        width: 477px;
-                        margin-left: 0px;
-                    }
-                    .vendor-section {
-                        width: 550px;
-                        margin: auto;
-                    }
-                    .vendor-card {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .vendor-header>h2 {
-                       font-size: 35px;
-                    }
-                    .course-section {
-                        width: 550px;
-                        margin: auto;
-                    }
-                    .course-container>.col-md-3>h2 {
-                       font-size: 35px;
-                    }
-                    .course-container>.nav-tabs>li>a {
-                        font-size: 18px;
-                        padding: 0px 26px;
-                    }
-                    .course-card-profile {
-                        width: 80px;
-                        height: 80px;
-                        left: 430px;
-                    }
-                    .corporate-form-container {
-                        top: 7590px;
-                        right: 40px;
-                    }
-                    .form-header {
-                        padding: 10px;
-                    }
-                    .corporate-caption-bottom {
-                        top: 150px;
-                        width: 245px;
-                    }
-                    .corporate-form-container>.form-horizontal>.form-group-container>.form-group>input {
-                        margin-bottom: 10px;
-                        margin-top: 0px;
-                    }
-                }
-
-                @media screen and (max-width:570px) {
-                  .corporate-form-container {
-                       top: 7580px;
-                       right: 30px;
-                       width: 300px;
-                     }
-                     .corporate-caption-bottom {
-                       top: 150px;
-                     }
-                }
-
-                @media screen and (max-width:535px) {
-                    .navbar-custom {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .navbar-container {
-                        width: 342px;
-                        margin: auto;
-                    }
-                    .vendor-section {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .vendor-card {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .course-section {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .course-container>.nav-tabs>li>a {
-                        font-size: 16px;
-                        padding: 0px 22px;
-                    }
-                    .course-card-profile {
-                        width: 80px;
-                        height: 80px;
-                        left: 415px;
-                    }
-                    .corporate-form-container {
-                        top: 7580px;
-                        right: 118px;
-                        width: 300px;
-                    }
-                    .corporate-caption-bottom {
-                        display: none;
-                    }
-                    .corporate-caption-top {
-                        top: 20px;
-                        text-align: center;
-                    }
-
-
-                }
-
-                @media screen and (max-width:505px) {
-                    .navbar-custom {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .navbar-container {
-                        width: 342px;
-                        margin: auto;
-                    }
-                    .vendor-section {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .vendor-card {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .course-section {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .course-container>.nav-tabs>li>a {
-                        font-size: 16px;
-                        padding: 0px 22px;
-                    }
-                    .course-card-profile {
-                        width: 80px;
-                        height: 80px;
-                        left: 390px;
-                    }
-                    .corporate-form-container {
-                        top: 7690px;
-                        right: 105px;
-                        width: 300px;
-                    }
-                    .corporate-caption-bottom {
-                        display: none;
-                    }
-                    .corporate-caption-top {
-                        top: 20px;
-                        text-align: center;
-                    }
-
-
-                }
-
-                @media screen and (max-width:481px) {
-                    .navbar-custom {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .navbar-container {
-                        width: 342px;
-                        margin: auto;
-                    }
-                    .vendor-section {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .vendor-card {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .course-section {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .course-container>.nav-tabs>li>a {
-                        font-size: 16px;
-                        padding: 0px 22px;
-                    }
-                    .course-card-profile {
-                        width: 80px;
-                        height: 80px;
-                        left: 365px;
-                    }
-                    .corporate-form-container {
-                        top: 7700px;
-                        right: 85px;
-                        width: 300px;
-                    }
-                    .corporate-caption-bottom {
-                        display: none;
-                    }
-                    .corporate-caption-top {
-                        top: 20px;
-                        text-align: center;
-                    }
-
-
-                }
-
-                @media screen and (max-width:459px) {
-                  .course-card-profile {
-                        left: 345px;
-                    }
-                    .corporate-form-container {
-                        top: 7720px;
-                        right: 80px;
-                    }
-                }
-
-                @media screen and (max-width:442px) {
-                  .course-card-profile {
-                        left: 328px;
-                    }
-                }
-
-                @media screen and (max-width:424px) {
-                  .course-card-profile {
-                        left: 310px;
-                    }
-                    .corporate-form-container {
-                        right: 65px;
-                    }
-                }
-
-                @media screen and (max-width:415px) {
-                    .blank-section {
-                        padding: 0px;
-                        height: 30px;
-                    }
-                    .navbar-custom {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .navbar-container {
-                        width: 296px;
-                        margin: auto;
-                    }
-                    .navbar-brand>img {
-                        max-width: 70%;
-                    }
-                    .vendor-section {
-                        width: 410px;
-                        margin: auto;
-                        padding: 0px;
-                    }
-                    .vendor-header {
-                        text-align: center;
-                    }
-                    .vendor-header>h2{
-                      font-size: 30px;
-                    }
-                    .vendor-card {
-                        width: 100%;
-                        height: 380px;
-                        margin: auto;
-                    }
-                    .vendor-card-profile-holder {
-                        top: 260px;
-                    }
-                    .vendor-card-profile {
-                       width: 60px;
-                       height: 60px;
-                    }
-                    .vendor-card-profile-caption>a>h4 {
-                       font-size: 25px;
-                    }
-                    .course-section {
-                        width: 410px;
-                        margin: auto;
-                        padding: 0px;
-                    }
-                    .course-container>.nav-tabs>li>a {
-                        font-size: 15px;
-                        padding: 0px 15px;
-                    }
-                    .course-container>.col-md-3>h2{
-                      font-size: 30px;
-                    }
-                    .course-container>.col-md-3 {
-                        text-align: center;
-                    }
-                    .course-card-profile {
-                        left: 295px;
-                    }
-                    .course-card-footer-participant {
-                        display: inline-block;
-                    }
-                    .course-card-footer-btn {
-                        display: inline-block;
-                        float: right;
-                        padding: 0px !important;
-                    }
-                    .corporate-form-container {
-                      width: 320px;
-                      position: absolute;
-                      left: 50px;
-                      top: 6470px;
-                    }
-                    form input[type='text'] {
-                        margin-bottom: 0px;
-                        margin-top: 8px;
-                    }
-                    .form-group-container {
-                        padding: 10px 20px 10px 20px;
-                    }
-                    .form-header {
-                        padding: 10px;
-                    }
-                    .corporate-container>.col-md-12 {
-                        padding: 0px 15px;
-                    }
-                    .corporate-caption-bottom {
-                        display: none;
-                    }
-                    .corporate-caption-top {
-                        top: 50px;
-                        text-align: center;
-                    }
-                    .footer-setion {
-                        height: 150px;
-                        padding-top: 10px;
-                        padding-bottom: 10px;
-                    }
-                    .footer-container>ul {
-                        text-align: center;
-                    }
-                    .footer-item {
-                        padding: 0px 7px;
-                    }
-                    .footer-copyright-container {
-                        padding-top: 15px;
-                        text-align: center;
-                        ;
-                    }
-                    .footer-social-container {
-                        text-align: center;
-                        margin-top: 15px;
-                    }
-                }
-
-                @media screen and (max-width:376px) {
-                    .blank-section {
-                        padding: 0px;
-                        height: 30px;
-                    }
-                    .navbar-custom {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .navbar-container {
-                        width: 286px;
-                        margin: auto;
-                    }
-                    .vendor-section {
-                        width: 100%;
-                        padding: 0px;
-                        margin: auto;
-                    }
-                    .vendor-header {
-                        text-align: center;
-                    }
-                    .vendor-card {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .course-section {
-                        width: 100%;
-                        margin: auto;
-                        padding: 0px;
-                    }
-                    .course-container>.nav-tabs>li>a {
-                        font-size: 13px;
-                        padding: 0px 14px;
-                    }
-                    .course-container>.nav-tabs {
-                        margin-right: 3px;
-                    }
-                    .course-container>.col-md-3 {
-                        text-align: center;
-                    }
-                    .course-card-profile {
-                        left: 260px;
-                    }
-                    .corporate-form-container {
-                        width: 300px;
-                        position: absolute;
-                        left: 38px;
-                        top: 6460px
-                    }
-                    form input[type='text'] {
-                        margin-bottom: 0px;
-                        margin-top: 8px;
-                    }
-                    .form-group-container {
-                        padding: 10px 20px 10px 20px;
-                    }
-                    .form-header {
-                        padding: 10px;
-                    }
-                    .corporate-container>.col-md-12 {
-                        padding: 0px 15px;
-                     }
-                    .corporate-caption-bottom {
-                        display: none;
-                    }
-                    .corporate-caption-top {
-                        top: 40px;
-                        text-align: center;
-                    }
-                    .footer-setion {
-                        height: 150px;
-                        padding-top: 10px;
-                        padding-bottom: 10px;
-                    }
-                    .footer-container>ul {
-                        text-align: center;
-                    }
-                    .footer-item {
-                        padding: 0px 3px;
-                    }
-                    .footer-copyright-container {
-                        padding-top: 10px;
-                        text-align: center;
-                        ;
-                    }
-                    .footer-social-container {
-                        text-align: center;
-                        margin-top: 15px;
-                    }
-                }
-
-                @media screen and (max-width:361px) {
-                    .blank-section {
-                        height: 30px;
-                    }
-                    .navbar-custom {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .navbar-container {
-                        width: 228px;
-                        margin: auto;
-                    }
-                    .vendor-section {
-                        width: 100%;
-                        margin: 0px;
-                        padding: 0px;
-                    }
-                    .vendor-header>h2{
-                        text-align: center;
-                        font-size: 30px;
-                    }
-                    .vendor-card-profile-holder {
-                        top: 220px;
-                    }
-                    .vendor-card {
-                        width: 100%;
-                        height: 330px;
-                        margin: auto;
-                    }
-                    .course-section {
-                        width: 100%;
-                        margin: 0px;
-                    }
-                    .course-container>.nav-tabs {
-                        margin-right: 0px;
-                    }
-                    .course-container>.col-md-3>h2{
-                        font-size: 30px;
-                    }
-                    .course-container>.nav-tabs>li>a {
-                        font-size: 15px;
-                        padding: 0px 9px;
-                    }
-                    .course-container>.col-md-3>h2 {
-                        text-align: center;
-                    }
-                    .course-card-profile {
-                        left: 245px;
-                    }
-                    .course-card-footer-participant {
-                        display: inline-block;
-                    }
-                    .course-card-footer-btn {
-                        display: inline-block;
-                        float: right;
-                        padding: 0px !important;
-                    }
-                    .corporate-form-container {
-                      width: 275px;
-                      position: absolute;
-                      left: 45px;
-                      top: 6120px;
-                    }
-                    form input[type='text'] {
-                        margin-bottom: 0px;
-                        margin-top: 8px;
-                    }
-                    .form-group-container {
-                        padding: 10px 20px 10px 20px;
-                    }
-                    .form-header {
-                        padding: 10px;
-                    }
-                    .corporate-container>.col-md-12 {
-                     padding: 0px;
-                    }
-                    .corporate-caption-bottom {
-                        display: none;
-                    }
-                    .corporate-caption-top {
-                        top: 50px;
-                        text-align: center;
-                    }
-                    .footer-setion {
-                        height: 150px;
-                        padding-top: 10px;
-                        padding-bottom: 10px;
-                    }
-                    .footer-item {
-                        padding: 0px 3px;
-                    }
-                    .footer-item>a {
-                        font-size: 13px;
-                    }
-                    .footer-copyright-container {
-                        padding-top: 10px;
-                        text-align: center;
-                    }
-                    .footer-social-container {
-                        text-align: center;
-                        margin-top: 14px;
-                    }
-                }
-
-                @media screen and (max-width:321px) {
-                    .blank-section {
-                        height: 30px;
-                    }
-                    .navbar-custom {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .navbar-container {
-                        width: 228px;
-                        margin: auto;
-                    }
-                    .vendor-section {
-                        width: 100%;
-                        margin: 0px;
-                        padding: 0px;
-                    }
-                    .vendor-header {
-                        text-align: center;
-                    }
-                    .vendor-card {
-                        width: 100%;
-                        margin: auto;
-                    }
-                    .course-section {
-                        width: 100%;
-                        margin: 0px;
-                    }
-                    .course-container>.nav-tabs>li>a {
-                        font-size: 13px;
-                        padding: 0px 8px;
-                    }
-                    .course-container>.col-md-3>h2 {
-                        text-align: center;
-                    }
-                    .course-card-profile {
-                        left: 228px;
-                        top: 190px;
-                        width: 60px;
-                        height: 60px;
-                    }
-                    .course-card-image-caption-1>a {
-                        font-size: 15px;
-                    }
-                    .course-card-image-caption-2 {
-                        left: 110px;
-                    }
-                    .course-card-image-caption-2>a {
-                        font-size: 15px;
-                    }
-                    .corporate-form-container {
-                        width: 260px;
-                        position: absolute;
-                        left: 31px;
-                        top: 6250px;
-                    }
-                    form input[type='text'] {
-                        margin-bottom: 0px;
-                        margin-top: 8px;
-                    }
-                    .form-group-container {
-                        padding: 10px 20px 10px 20px;
-                    }
-                    .form-header {
-                        padding: 10px;
-                    }
-                    .corporate-caption-bottom {
-                        display: none;
-                    }
-                    .corporate-caption-top {
-                        top: 60px;
-                        text-align: center;
-                    }
-                    .footer-setion {
-                        height: 150px;
-                        padding-top: 10px;
-                        padding-bottom: 10px;
-                    }
-                    .footer-item {
-                        padding: 0px 3px;
-                    }
-                    .footer-item>a {
-                        font-size: 13px;
-                    }
-                    .footer-copyright-container {
-                        padding-top: 10px;
-                        text-align: center;
-                        ;
-                    }
-                    .footer-social-container {
-                        text-align: center;
-                        margin-top: 15px;
-                    }
                 }

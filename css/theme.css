@@ -3405,7 +3405,7 @@ section.space-bottom--sm, footer.space-bottom--sm {
 }
 
 @media all and (max-width: 767px) {
-    
+
 }
 
 /*div[class*='col-']>div[class*='col-']:first-child {
@@ -3542,10 +3542,7 @@ h6, .h6 {
 }
 
 @media all and (max-width: 767px) {
-    h1, .h1 {
-        font-size: 2em;
-        line-height: 1.421875em;
-    }
+    
 }
 
 .lead {

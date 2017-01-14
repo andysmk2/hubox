@@ -19,8 +19,8 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- preloader css -->
-    <link href="css/preloader.css" rel="stylesheet">
+    <!-- resposive css -->
+    <link href="css/responsive.css" rel="stylesheet">
 
     <!-- font awesome css -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -116,18 +116,22 @@
             <div class="col-md-12">
                 <h1>天行者造型燈</h1>
             </div>
-            <div class="col-md-1 course-page-profile-image">
+            <div class="course-page-profile-image-container">
+            <div class="course-page-profile-image">
                 <a href="#"><img src="img/mk_logo.jpg" /></a>
             </div>
-            <div class="col-md-3 course-page-profile-caption">
+            <div class="course-page-profile-caption">
                 <a href="#"><h3>木客微光</h3></a>
             </div>
-            <div class="col-md-1">
+            </div>
+            <div class="course-page-profile-icon-container">
+            <div class="course-page-profile-icon">
                 <a href="#"><i class="fa fa-gift" aria-hidden="true"></i></a>
             </div>
-            <div class="col-md-3">
+            <div class="course-page-profile-caption">
                 <a href="#"><h3>手作學習</h3></a>
             </div>
+          </div>
         </div>
     </section>
     <!-- Cover-section ends here-->
@@ -138,9 +142,7 @@
     <section class="course-page-content-section">
         <div class="course-page-content-container">
           <div class="col-md-4 course-page-statistic-container">
-
-              <div class="panel-group col-md-12 course-page-register-caption course-page-border-bottom" id="accordion" role="tablist" aria-multiselectable="true">
-
+            <div class="panel-group col-md-12 course-page-register-caption course-page-border-bottom" id="accordion" role="tablist" aria-multiselectable="true">
                   <div class="panel panel-default">
                       <div class="panel-heading" role="tab" id="headingTwo">
                           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -215,11 +217,100 @@
               </div>
           </div>
 
+
+          <div class="course-page-statistic-container-r">
+            <div class="course-page-statistic-price-r">
+              <div class="course-page-statistic-price-icon-r">
+                <i class="fa fa-credit-card" aria-hidden="true"></i>
+              </div>
+              <div class="course-page-statistic-price-label-r">
+                <p>學習價格：2,500</p>
+              </div>
+            </div>
+            <div class="course-page-statistic-pt-holder-r">
+              <div class="course-page-statistic-people-r">
+                <div class="course-page-statistic-people-icon-r">
+                  <i class="fa fa-user fa-4x" aria-hidden="true"></i>
+                </div>
+                <div class="course-page-statistic-people-label-r">
+                  <span class="label label-default">10~30人</span>
+                </div>
+              </div>
+              <div class="course-page-statistic-time-r">
+                <div class="course-page-statistic-time-icon-r">
+                  <i class="fa fa-clock-o fa-4x" aria-hidden="true"></i>
+                </div>
+                <div class="course-page-statistic-time-label-r">
+                  <span class="label label-default">共8小時</span>
+                </div>
+              </div>
+
+            <a href="#">
+              <div class="course-page-statistic-place-r">
+                <div class="course-page-statistic-place-icon-r">
+                  <i class="fa fa-map-marker fa-4x" aria-hidden="true"></i>
+                </div>
+                <div class="course-page-statistic-place-label-r">
+                  <span class="label label-default">查看地圖</span>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <div class="course-page-statistic-date-r" role="button" data-toggle="collapse" href="#collapse" aria-expanded="false" aria-controls="collapseExample">
+              <div class="course-page-statistic-date-icon-r">
+                <i class="fa fa-calendar fa-fw" aria-hidden="true"></i>
+              </div>
+              <div class="course-page-statistic-date-label-r">
+                <p>點擊查看學習日期</p>
+              </div>
+            </div>
+            <div class="collapse" id="collapse">
+              <div class="course-page-date-collapse-container">
+                <div class="radio">
+                  <label><input type="radio" name="optionsRadios" id="optionsRadios1" value="">
+                    2月2日（三）13:00~17:00
+                  </label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+                    2月2日（三）13:00~17:00
+                  </label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+                    2月2日（三）13:00~17:00
+                  </label>
+                </div>
+              </div>
+            </div>
+              <a href="#">
+                <div class="course-page-share-container-r">
+                  <div class="course-page-share-btn-r">
+                    <i class="fa fa-facebook col-md-2" aria-hidden="true"></i>
+                    <h3 class="col-md-10">分享此學習</h3>
+                  </div>
+                </div>
+              </a>
+            <a href="#">
+              <div class="course-page-buy-container-r" role="button">
+                <div class="course-page-buy-btn-r">
+                  <i class="fa fa-book col-md-2" aria-hidden="true"></i>
+                  <h3 class="col-md-10">購買此學習</h3>
+                </div>
+              </div>
+            </a>
+            <div class="blank-section"></div>
+          </div>
+
             <div class="course-page-tab-container col-md-8">
                 <!-- Tab nav starts here-->
                 <ul class="nav nav-tabs" id="myTabs" role="tablist">
                     <li role="presentation" class="active">
                         <a href="#intro" aria-controls="intro" role="tab" data-toggle="tab">學習介紹</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#info" aria-controls="others" role="tab" data-toggle="tab">學習包含</a>
                     </li>
                     <li role="presentation">
                         <a href="#others" aria-controls="others" role="tab" data-toggle="tab">其他學習</a>
@@ -252,22 +343,28 @@
                                                 </p>
                         </div>
                     </div>
+                    <div role="tabpanel" class="tab-pane fade" id="info">
+                      <div class="course-page-info-container">
+                      <h2>本學習包含</h2>
+                      <p>1. 所有天行者工業風手作檯燈之製作材料<br>2. 四小時之天行者工業風手作檯燈製作教學<br>3. 自行製作完成後之天行者工業風手作檯燈一座</p>
+                      </div>
+                    </div>
                     <div role="tabpanel" class="tab-pane fade" id="others">
                         <div class="course-page-course-tab-container">
                             <!-- course page course-1 starts here-->
                             <div class="col-md-5 course-page-tab-image">
                                 <a href="#"><img src="img/class6.jpg" /></a>
                             </div>
-                            <div class="col-md-2 course-page-tab-content">
+                            <div class="col-md-2 course-page-tab-content course-page-tab-content-1">
                                 <h4>天行者</h4>
                             </div>
-                            <div class="col-md-2 course-page-tab-content">
+                            <div class="col-md-2 course-page-tab-content course-page-tab-content-2">
                                 <div class="rate_row"></div>
                             </div>
-                            <div class="col-md-2 course-page-tab-content">
+                            <div class="col-md-2 course-page-tab-content course-page-tab-content-3">
                                 <h4>$2,000</h4>
                             </div>
-                            <div class="col-md-1 course-page-tab-content">
+                            <div class="col-md-1 course-page-tab-content course-page-tab-content-4">
                                 <button type="button" class="btn btn-success">查看</button>
                             </div>
                             <!-- course page course-1 ends here-->
@@ -276,16 +373,16 @@
                             <div class="col-md-5 course-page-tab-image">
                                 <a href="#"><img src="img/class6.jpg" /></a>
                             </div>
-                            <div class="col-md-2 course-page-tab-content">
+                            <div class="col-md-2 course-page-tab-content course-page-tab-content-1">
                                 <h4>天行者</h4>
                             </div>
-                            <div class="col-md-2 course-page-tab-content">
+                            <div class="col-md-2 course-page-tab-content course-page-tab-content-2">
                                 <div class="rate_row"></div>
                             </div>
-                            <div class="col-md-2 course-page-tab-content">
+                            <div class="col-md-2 course-page-tab-content course-page-tab-content-3">
                                 <h4>$2,000</h4>
                             </div>
-                            <div class="col-md-1 course-page-tab-content">
+                            <div class="col-md-1 course-page-tab-content course-page-tab-content-4">
                                 <button type="button" class="btn btn-success">查看</button>
                             </div>
                             <!-- Vendor page course-2 ends here-->
@@ -294,16 +391,16 @@
                             <div class="col-md-5 course-page-tab-image">
                                 <a href="#"><img src="img/class6.jpg" /></a>
                             </div>
-                            <div class="col-md-2 course-page-tab-content">
+                            <div class="col-md-2 course-page-tab-content course-page-tab-content-1">
                                 <h4>天行者</h4>
                             </div>
-                            <div class="col-md-2 course-page-tab-content">
+                            <div class="col-md-2 course-page-tab-content course-page-tab-content-2">
                                 <div class="rate_row"></div>
                             </div>
-                            <div class="col-md-2 course-page-tab-content">
+                            <div class="col-md-2 course-page-tab-content course-page-tab-content-3">
                                 <h4>$2,000</h4>
                             </div>
-                            <div class="col-md-1 course-page-tab-content">
+                            <div class="col-md-1 course-page-tab-content course-page-tab-content-4">
                                 <button type="button" class="btn btn-success">查看</button>
                             </div>
                             <!-- Vendor page course-3 ends here-->
