@@ -2915,12 +2915,6 @@ section.slider .owl-theme .owl-controls .owl-nav div.owl-prev, section.slider .o
 
 /**! 26. Video **/
 
-iframe {
-    width: 100%;
-    min-height: 350px;
-    border: none;
-}
-
 @media all and (max-width: 767px) {
     iframe {
         min-height: 220px;
@@ -3542,7 +3536,7 @@ h6, .h6 {
 }
 
 @media all and (max-width: 767px) {
-    
+
 }
 
 .lead {

@@ -1,4 +1,4 @@
-                /*bootstrap remodal*/
+              /*bootstrap remodal*/
                 .collapsing{
                   width: 100% !important;
                 }
@@ -552,13 +552,13 @@
                 /*vendor-page-cover-section*/
 
                 .vendor-page-cover-section {
-                    height: auto;
+                    height: 400px;
                     width: 100%;
                     margin: auto;
                 }
 
                 .vendor-page-cover-holder {
-                    height: 400px;
+                    height:100%;
                     width: auto;
                 }
 
@@ -613,14 +613,14 @@
                 /*vendor-page-content-section*/
 
                 .vendor-page-content-section {
-                    width: 100%;
+                    width: 1200px;
                     margin: auto;
                     height: auto;
                     background-color: #fff;
                 }
 
                 .vendor-page-content-container {
-                    width: 1200px;
+                    width: 100%;
                     margin: auto;
                     height: auto;
                     overflow: hidden;
@@ -651,6 +651,13 @@
                     text-align: center;
                     padding-right: 10px !important;
                     padding-left: 10px !important;
+                }
+
+                .vendor-page-top-intro-container{
+                  display: block;
+                }
+                .course-page-top-statistic-container{
+
                 }
 
                 .vendor-page-content-btn {
@@ -782,16 +789,28 @@
                     padding-bottom: 10px;
                 }
 
+                .vendor-page-tab-image-container{
+                  width: 100%;
+                  padding: 15px;
+                  margin: auto;
+                  height: auto;
+                  overflow: hidden;
+                }
+
                 .vendor-page-tab-image {
                     height: 255px;
                     padding-top: 10px;
                     padding-bottom: 10px;
                     padding-left: 20px !important;
                 }
+                .vendor-page-tab-container>.tab-content>.tab-pane>.vendor-page-tab-image-container>.vendor-page-gallery-video>iframe{
+                  width: 100%;
+                  height: 100%;
+                }
 
-                .course-container>.vendor-page-gallery-video>.background-image-holder {
+                .vendor-page-tab-image-container>.vendor-page-gallery-video>.background-image-holder {
                     position: absolute;
-                    width: 570px;
+                    width: 555px;
                     height: 350px;
                     top: 0;
                     left: 0;
@@ -888,6 +907,87 @@
                     font-size: 17px;
                     color: #6d6d6d;
                 }
+                /*course-container-r starts here */
+                .course-container-r{
+                  width: 100%;
+                  padding: 15px;
+                }
+                .course-page-course-tab-row-r{
+                  padding-bottom: 25px;
+                }
+                .course-page-course-tab-image-r{
+                  float: left;
+                  display: inline;
+                  width: 44%;
+                  height: 200px;
+                  background-color: #ffffff;
+                }
+                .course-page-course-tab-image-r>img{
+                  min-width: 100%;
+                  max-width: 100%;
+                  min-height: 100%;
+                  max-height: 100%;
+                }
+                .course-page-course-tab-info-r{
+                  position: relative;
+                  margin-left: 45%;
+                  padding-left: 0px;
+                  height: 200px;
+                }
+                .course-page-course-tab-title-r{
+                  overflow: hidden;
+                  text-align: center;
+                  text-overflow: ellipsis;
+                  white-space: nowrap;
+                  background-color: #eee;
+                  width: 100%;
+                  padding: 0px 10px;
+                  font-size: 28px;
+                  font-weight: 900;
+                  line-height: 65px;
+                  padding-top: 2px;
+                  color: #333333;
+                }
+                .course-page-course-tab-rate-r{
+                  overflow: hidden;
+                  text-align: center;
+                  text-overflow: ellipsis;
+                  white-space: nowrap;
+                  width: 100%;
+                  font-size: 35px;
+                  line-height: 65px;
+                  padding-top: 2px;
+                  color: #333333;
+                }
+                .course-page-course-tab-rate-r>.rate_row>.rate_star{
+                  font-size: 45px;
+                  padding: 0px 10px;
+                }
+                .course-page-course-tab-pb-r{
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  white-space: nowrap;
+                  width: 100%;
+                  line-height: 60px;
+                  padding-top: 2px;
+                  color: #333333;
+                }
+                .course-page-course-tab-price-r{
+                  width: 40%;
+                  font-size: 22px;
+                  background-color: lightblue;
+                  display: inline-block;
+                  text-align: center;
+                }
+                .course-page-course-tab-buy-r{
+                  width: 60%;
+                  font-size: 22px;
+                  color: #fff;
+                  background-color: #a94442;
+                  display: inline-block;
+                  text-align: center;
+                }
+
                 /*course-page starts here*/
 
                 .course-page-cover-section {
@@ -1539,7 +1639,7 @@
                     width: 800px;
                     text-align: center;
                     position: fixed;
-                    bottom: 10px;
+                    bottom: 20px;
                     z-index: 999;
                 }
                 .course-page-buy-btn-r>i {
