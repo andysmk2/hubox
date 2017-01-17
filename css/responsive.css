@@ -1113,7 +1113,6 @@
             }
         }
 
-
         /*course-page responsive starts here*/
 
         @media screen and (max-width:1263px) {
@@ -1204,9 +1203,6 @@
             .course-page-profile-container {
                 padding: 13px;
             }
-            .course-page-statistic-container {
-                display: none;
-            }
             .course-page-tab-container {
                 right: 0px;
             }
@@ -1227,12 +1223,6 @@
             }
             .course-page-related-container>.course-card>.course-card-profile {
                 left: 680px;
-            }
-        }
-
-        @media screen and (min-width:993px) {
-            .course-page-statistic-container-r {
-                display: none;
             }
         }
 
@@ -1949,7 +1939,6 @@
                 left: 195px;
             }
         }
-
 
         /*vendor page responsive starts here*/
 
