@@ -22,6 +22,9 @@
     <!-- resposive css -->
     <link href="css/responsive.css" rel="stylesheet">
 
+    <link href="css/pc-toggle-sidebar.css" rel="stylesheet">
+
+
     <!-- font awesome css -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
@@ -36,36 +39,23 @@
 
 <body>
     <!-- Navigation starts here-->
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-  <div class="container-fluid navbar-container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">
-        <img src="img/logo.png"/>
-      </a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="navbar-collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="navbar-border-right"><a href="#">學習內容</a></li>
-        <li class="navbar-border-right"><a href="#">學習商</a></li>
-        <li class="navbar-border-right"><a href="#">說明</a></li>
-        <li class="navbar-icon"><a href="#"><i class="fa fa-book fa-lg fa-fw" aria-hidden="true"></i></a></li>
-        <li class="navbar-icon"><a href="#"><i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i></a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
+    <nav role="banner" class="navbar navbar-fixed-top navbar-customz">
+          <div class="navbar-container">
+            <div class="navbar-header">
+              <button data-toggle="collapse-side" data-target=".side-collapse" data-target-2=".side-collapse-container" type="button" class="navbar-toggle"><i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+</button>
+            </div>
+            <div class="navbar-inverse side-collapse in">
+                <ul class="nav navbar-nav">
+                  <li><a href="#Home">Home</a></li>
+                  <li><a href="#users">Users</a></li>
+                  <li><a href="http://placesforlove.com">Places</a></li>
+                </ul>
+            </div>
+          </div>
+        </nav>
     <!-- navigation ends here -->
-
+  <div class="side-collapse-container">
     <!-- Slider-section starts here-->
     <section class="slider-section">
         <header id="myCarousel" class="carousel slide">
@@ -1237,6 +1227,7 @@
     </section>
     <!-- Footer-section ends here -->
 
+  </div>
 
     <!-- Bootstrap js -->
     <script src="js/bootstrap.min.js"></script>
@@ -1245,18 +1236,16 @@
     <script src="js/isotope.min.js"></script>
     <script src="js/scripts.js"></script>
 
-    <!-- preloader js-->
     <script>
-        var myVar;
-
-        function myFunction() {
-            myVar = setTimeout(showPage, 1000);
-        }
-
-        function showPage() {
-            document.getElementById("loader").style.display = "none";
-            document.getElementById("myDiv").style.display = "block";
-        }
+    $(document).ready(function() {
+        var sideslider = $('[data-toggle=collapse-side]');
+        var sel = sideslider.attr('data-target');
+        var sel2 = sideslider.attr('data-target-2');
+        sideslider.click(function(event){
+            $(sel).toggleClass('in');
+            $(sel2).toggleClass('out');
+        });
+    });
     </script>
 </body>
 

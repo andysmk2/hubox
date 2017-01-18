@@ -26,9 +26,6 @@
                 padding: 0px;
                 height: 30px;
             }
-            .nav-logo{
-              margin-left: 23%;
-            }
             .vendor-section {
                 width: 410px;
                 margin: auto;
@@ -387,396 +384,56 @@
 
         /*course-page responsive m starts here*/
 
-        @media screen and (max-width:500px) {
-            .blank-section{
-              height: 25px;
-            }
-            .course-page-cover-section {
-              height: 300px;
-            }
-            .course-page-profile-container{
-              top: 190px;
-              padding: 5px;
-              width: 32%;
-            }
-            .course-page-profile-container>.col-md-12>h1{
-              font-size: 20px;
-            }
-            .course-page-profile-icon-container{
-              display: none;
-            }
-            .course-page-profile-image{
-              width: 35px;
-              height: 35px;
-            }
-            .course-page-profile-caption>a>h3{
-              font-size: 17px;
-            }
-            .course-page-content-section {
-                width: 450px;
-            }
-            .course-page-statistic-price-r{
-              padding: 10px 10px;
-            }
-            .course-page-statistic-price-r>.course-page-statistic-price-icon-r>i{
-              font-size: 30px;
-            }
-            .course-page-statistic-price-r>.course-page-statistic-price-label-r>p{
-              font-size: 25px;
-            }
-            .course-page-statistic-date-r{
-              padding: 10px 10px;
-            }
-            .course-page-statistic-date-r>.course-page-statistic-date-icon-r>i{
-              font-size: 30px;
-            }
-            .course-page-statistic-date-r>.course-page-statistic-date-label-r>p{
-              font-size: 25px;
-            }
-            .course-page-date-collapse-container>.radio>label{
-              font-size: 20px;
-            }
-            .course-page-date-collapse-container>.radio>span{
-              vertical-align: text-top;
-            }
-            .course-page-share-btn-r>i{
-              font-size: 45px;
-            }
-            .course-page-share-btn-r>h3{
-              font-size: 25px;
-            }
-            .course-page-buy-btn-r>i{
-              font-size: 45px;
-            }
-            .course-page-buy-btn-r>h3{
-              font-size: 25px;
-            }
-            .course-page-statistic-people-icon-r{
-              width: 100px;
-              height: 100px;
-              padding: 23px 0px;
-            }
-            .course-page-statistic-people-icon-r>i{
-              font-size: 50px;
-            }
-            .course-page-statistic-people-label-r>.label{
-              font-size: 15px;
-            }
-
-            .course-page-statistic-time-icon-r{
-              width: 100px;
-              height: 100px;
-              padding: 23px 0px;
-            }
-            .course-page-statistic-time-icon-r>i{
-              font-size: 50px;
-            }
-            .course-page-statistic-time-label-r>.label{
-              font-size: 15px;
-            }
-
-            .course-page-statistic-place-icon-r{
-              width: 100px;
-              height: 100px;
-              padding: 23px 0px;
-            }
-            .course-page-statistic-place-icon-r>i{
-              font-size: 50px;
-            }
-            .course-page-statistic-place-label-r>.label{
-              font-size: 15px;
-            }
-
-            .course-page-course-tab-image-r{
-              height: 115px;
-              width: 40%;
-            }
-            .course-page-course-tab-info-r{
-              height: 115px;
-            }
-            .course-page-course-tab-info-r{
-              margin-left: 40%;
-            }
-            .course-page-course-tab-title-r{
-              font-size: 18px;
-              line-height: 38px;
-            }
-            .course-page-course-tab-rate-r{
-              font-size: 25px;
-              line-height: 38px;
-            }
-            .course-page-course-tab-rate-r>.rate_row>.rate_star{
-              font-size: 25px;
-              padding: 0px 6px;
-            }
-            .course-page-course-tab-pb-r{
-              line-height: 32px;
-            }
-            .course-page-course-tab-price-r{
-              font-size: 15px;
-            }
-            .course-page-course-tab-buy-r{
-              font-size: 18px;
-            }
-            .course-page-course-tab-buy-r>i{
-              font-size: 18px;
-              padding: 0px 3px;
-            }
-            .course-page-tab-container{
-              right: 0px;
-            }
-            .course-page-profile-container>.col-md-12 {
-                padding-bottom: 5px;
-            }
-            .course-page-buy-container-r {
-                width: 450px;
-            }
-            .course-page-related-section {
-                width: 450px;
-            }
-            .course-page-related-container>.course-card>.course-card-profile {
-                left: 335px;
-            }
-            .course-page-statistic-people-r {
-                padding: 0px 5px;
-            }
-            .course-page-statistic-time-r {
-                padding: 0px 5px;
-            }
-            .course-page-statistic-place-r {
-                padding: 0px 5px;
-            }
+        @media screen and (max-width:737px) {
+         .course-page-tab-nav-container>.nav-tabs>li>a{
+           font-size: 20px;
+         }
         }
-
-        @media screen and (max-width:450px) {
-            .blank-section {
-                height: 20px;
-            }
-            .course-page-cover-section {
-                height: 270px;
-            }
-            .course-page-profile-container {
-                top: 170px;
-                padding: 5px;
-                width: 40%;
-            }
-            .course-page-profile-image {
-                width: 35px;
-                height: 35px;
-            }
-            .course-page-content-section {
-                width: 95%;
-            }
-
-            .course-page-tab-content {
-                height: 160px;
-            }
-            .course-page-related-container>.course-card>.course-card-profile {
-                left: 310px;
-            }
-            .course-page-profile-container>.col-md-12>h1 {
-                font-size: 23px;
-            }
-            .course-page-profile-caption>a>h3 {
-                font-size: 18px;
-            }
-            .course-page-buy-container-r {
-                width: 95%;
-            }
-            .course-page-related-section {
-                width: 95%;
-            }
-            .course-page-course-tab-container>.course-page-tab-content {
-                padding-left: 5px;
-                padding-right: 5px;
-            }
-            .course-page-statistic-pt-holder-r {
-                padding: 15px 15px;
-            }
-            .course-page-statistic-price-r {
-                padding: 10px 10px;
-            }
-            .course-page-statistic-date-r {
-                padding: 10px 10px;
-            }
-            .course-page-statistic-pt-holder-r>.course-page-statistic-people-r>.course-page-statistic-people-icon-r>i {
-                font-size: 40px;
-            }
-            .course-page-statistic-pt-holder-r>.course-page-statistic-people-r>.course-page-statistic-people-icon-r {
-                width: 80px;
-                height: 80px;
-            }
-            .course-page-statistic-people-icon-r {
-                padding: 18px 0px;
-            }
-            .course-page-statistic-people-label-r>.label {
-                font-size: 15px;
-            }
-            .course-page-statistic-pt-holder-r>.course-page-statistic-time-r>.course-page-statistic-time-icon-r>i {
-                font-size: 40px;
-            }
-            .course-page-statistic-pt-holder-r>.course-page-statistic-time-r>.course-page-statistic-time-icon-r {
-                width: 80px;
-                height: 80px;
-            }
-            .course-page-statistic-time-label-r>.label {
-                font-size: 15px;
-            }
-            .course-page-statistic-time-icon-r {
-                padding: 18px 0px;
-            }
-            .course-page-statistic-pt-holder-r>a>.course-page-statistic-place-r>.course-page-statistic-place-icon-r>i {
-                font-size: 40px;
-            }
-            .course-page-statistic-pt-holder-r>a>.course-page-statistic-place-r>.course-page-statistic-place-icon-r {
-                width: 80px;
-                height: 80px;
-            }
-            .course-page-statistic-place-icon-r {
-                padding: 18px 0px;
-            }
-            .course-page-statistic-place-label-r>.label {
-                font-size: 15px;
-            }
-            .course-page-course-tab-buy-r{
-              font-size: 15px;
-            }
-            .course-page-course-tab-buy-r>i{
-              font-size: 15px;
-            }
-            .course-page-course-tab-row-r{
-              padding-bottom: 20px;
-            }
-            .course-page-course-tab-image-r{
-              height: 100px;
-            }
-            .course-page-course-tab-info-r{
-              height: 100px;
-            }
-            .course-page-course-tab-title-r{
-              font-size: 15px;
-              line-height: 33px;
-            }
-            .course-page-course-tab-rate-r {
-              font-size: 25px;
-              line-height: 33px;
-            }
-            .course-page-course-tab-pb-r {
-              line-height: 28px;
-            }
-            .course-page-course-tab-rate-r>.rate_row>.rate_star{
-              font-size: 22px;
-            }
-        }
-
-        @media screen and (max-width:426px) {
-            .course-page-tab-container>.nav>li>a {
-                font-size: 15px;
-            }
-            .course-page-statistic-price-r>.course-page-statistic-price-icon-r>i {
-                font-size: 30px;
-            }
-            .course-page-statistic-price-r>.course-page-statistic-price-label-r>p {
-                font-size: 25px;
-            }
-            .course-page-statistic-date-r>.course-page-statistic-date-icon-r>i {
-                font-size: 30px;
-            }
-            .course-page-statistic-date-r>.course-page-statistic-date-label-r>p {
-                font-size: 25px;
-            }
-            .course-page-share-btn-r>i {
-                font-size: 50px;
-            }
-            .course-page-share-btn-r>h3 {
-                font-size: 25px;
-            }
-            .course-page-buy-btn-r>i {
-                font-size: 50px;
-            }
-            .course-page-buy-btn-r>h3 {
-                font-size: 25px;
-            }
-            .course-page-related-container>.course-card>.course-card-profile {
-                left: 290px;
-            }
-            .course-page-tab-content {
-                height: 140px;
-            }
-            .course-page-tab-image {
-                height: 120px;
-            }
-            .course-page-date-collapse-container>.radio>label {
-                font-size: 20px;
-            }
-            .course-page-course-tab-pb-r {
-                line-height: 26px;
-            }
+        @media screen and (max-width:569px) {
+          .course-page-statistic-price-r,.course-page-statistic-time-r{
+            width: 24%;
+          }
+          .course-page-course-tab-rate-r>.rate_row>.rate_star{
+            font-size: 40px;
+          }
         }
 
         @media screen and (max-width:415px) {
-            .course-page-cover-section {
-                height: 270px;
+            .course-page-cover-section{
+              height: 220px;
             }
-            .course-page-profile-container>.col-md-12>h1 {
-                font-size: 21px;
+            .course-page-statistic-title-r>h1{
+              font-size: 40px;
             }
+            .course-page-statistic-vendor-image{
+              width: 45px;
+              height: 45px;
+            }
+            .course-page-statistic-vendor-name>a>h1,.course-page-statistic-vendor-name>h2{
+              font-size: 15px;
+            }
+            .course-page-statistic-price-r,.course-page-statistic-time-r,.course-page-statistic-place-r,.course-page-statistic-share-r{
+              width: 23%;
+            }
+            .course-page-statistic-price-icon-r,.course-page-statistic-time-icon-r,.course-page-statistic-place-icon-r,.course-page-statistic-share-icon-r {
+              font-size: 10px;
+              padding: 0px 0px;
+             }
+             .course-page-statistic-price-label-r,.course-page-statistic-time-label-r,.course-page-statistic-place-label-r,.course-page-statistic-share-label-r{
+               font-size: 13px;
+             }
+             .course-page-date-collapse-container>.radio>label{
+               font-size: 20px;
+             }
+             .course-page-date-collapse-container>.radio>label>input[type=radio]{
+               margin-top: 8px;
+             }
+
             .course-page-related-container>.course-card>.course-card-profile {
-                left: 280px;
-            }
-            .course-page-statistic-pt-holder-r {
-                padding: 15px 15px;
-            }
-            .course-page-statistic-price-r {
-                padding: 10px 10px;
+              left: 280px;
             }
             .course-page-statistic-date-r {
                 padding: 10px 10px;
-            }
-            .course-page-statistic-pt-holder-r>.course-page-statistic-people-r>.course-page-statistic-people-icon-r>i {
-                font-size: 40px;
-            }
-            .course-page-statistic-pt-holder-r>.course-page-statistic-people-r>.course-page-statistic-people-icon-r {
-                width: 80px;
-                height: 80px;
-            }
-            .course-page-statistic-people-icon-r {
-                padding: 18px 0px;
-            }
-            .course-page-statistic-people-label-r>.label {
-                font-size: 15px;
-            }
-            .course-page-statistic-pt-holder-r>.course-page-statistic-time-r>.course-page-statistic-time-icon-r>i {
-                font-size: 40px;
-            }
-            .course-page-statistic-pt-holder-r>.course-page-statistic-time-r>.course-page-statistic-time-icon-r {
-                width: 80px;
-                height: 80px;
-            }
-            .course-page-statistic-time-label-r>.label {
-                font-size: 15px;
-            }
-            .course-page-statistic-time-icon-r {
-                padding: 18px 0px;
-            }
-            .course-page-statistic-pt-holder-r>a>.course-page-statistic-place-r>.course-page-statistic-place-icon-r>i {
-                font-size: 40px;
-            }
-            .course-page-statistic-pt-holder-r>a>.course-page-statistic-place-r>.course-page-statistic-place-icon-r {
-                width: 80px;
-                height: 80px;
-            }
-            .course-page-statistic-place-icon-r {
-                padding: 18px 0px;
-            }
-            .course-page-statistic-place-label-r>.label {
-                font-size: 15px;
-            }
-            .course-page-statistic-price-r>.course-page-statistic-price-icon-r>i {
-              font-size: 25px;
-            }
-            .course-page-statistic-price-r>.course-page-statistic-price-label-r>p {
-              font-size: 22px;
             }
             .course-page-statistic-date-r>.course-page-statistic-date-icon-r>i {
               font-size: 25px;
@@ -790,6 +447,36 @@
             .course-page-share-btn-r>h3 {
               font-size: 22px;
             }
+            .course-page-tab-nav-container>.nav-tabs>li>a{
+              font-size: 17px;
+            }
+            .course-page-course-tab-image-r{
+              height: 100px;
+            }
+            .course-page-course-tab-info-r{
+              height: 100px;
+            }
+            .course-page-course-tab-title-r{
+              font-size: 15px;
+              line-height: 32px;
+            }
+            .course-page-course-tab-rate-r{
+              font-size: 15px;
+              line-height: 30px;
+            }
+            .course-page-course-tab-rate-r>.rate_row>.rate_star{
+              font-size: 20px;
+              padding: 0px 5px;
+            }
+            .course-page-course-tab-pb-r{
+              line-height: 30px;
+            }
+            .course-page-course-tab-price-r{
+              font-size: 15px;
+            }
+            .course-page-course-tab-buy-r{
+              font-size: 15px;
+            }
         }
 
         @media screen and (max-width:408px) {
@@ -801,87 +488,9 @@
             }
         }
 
-        @media screen and (max-width:397px) {
-          .course-page-related-container>.course-card>.course-card-profile {
-           left: 260px;
-          }
-          .course-page-course-tab-image-r {
-           height: 90px;
-          }
-          .course-page-course-tab-info-r {
-           height: 90px;
-          }
-          .course-page-course-tab-title-r {
-           line-height: 30px;
-          }
-          .course-page-course-tab-rate-r {
-           line-height: 30px;
-          }
-          .course-page-course-tab-rate-r>.rate_row>.rate_star {
-           font-size: 19px;
-          }
-          .course-page-course-tab-pb-r {
-           line-height: 22px;
-          }
-        }
-
         @media screen and (max-width:376px) {
-            .blank-section {
-                padding: 0px;
-                height: 20px;
-            }
-            .course-page-cover-section {
-                height: 240px;
-            }
-            .course-page-profile-container {
-                top: 140px;
-                padding: 5px;
-            }
-            .course-page-profile-container>.col-md-12>h1 {
-                font-size: 18px;
-            }
-            .course-page-profile-image {
-                height: 30px;
-                width: 30px;
-            }
-            .course-page-profile-caption>a>h3 {
-                font-size: 14px;
-            }
-            .course-page-related-container>.course-card>.course-card-profile {
-                left: 245px;
-            }
             .course-page-tab-container>.nav>li>a {
                 padding: 10px 12px;
-            }
-            .course-page-tab-image {
-                width: 45%;
-            }
-            .course-page-tab-content {
-                height: 120px;
-            }
-            .course-page-tab-content>h4 {
-                line-height: 90px;
-            }
-            .course-page-statistic-people-icon-r {
-                padding: 16px 0px;
-            }
-            .course-page-statistic-time-icon-r {
-                padding: 16px 0px;
-            }
-            .course-page-statistic-place-icon-r {
-                padding: 16px 0px;
-            }
-            .course-page-statistic-price-r>.course-page-statistic-price-icon-r>i {
-                font-size: 25px;
-            }
-            .course-page-statistic-price-r>.course-page-statistic-price-label-r>p {
-                font-size: 20px;
-            }
-            .course-page-statistic-date-r>.course-page-statistic-date-icon-r>i {
-                font-size: 25px;
-            }
-            .course-page-statistic-date-r>.course-page-statistic-date-label-r>p {
-                font-size: 20px;
             }
             .course-page-share-btn-r>h3 {
                 font-size: 24px;
@@ -889,18 +498,11 @@
             .course-page-share-btn-r>i {
                 font-size: 45px;
             }
+            .course-page-tab-nav-container>.nav-tabs>li>a{
+              font-size: 15px;
+            }
             .footer-item {
                 padding: 0px 2px;
-            }
-            .course-page-profile-container>.col-md-12>h1 {
-                font-size: 17px;
-            }
-            .course-page-profile-image {
-                width: 35px;
-                height: 35px;
-            }
-            .course-page-profile-caption>a>h3 {
-                font-size: 13px;
             }
             .course-page-tab-container>.nav>li>a {
                 padding: 10px 10px;
@@ -911,132 +513,30 @@
             .course-page-date-collapse-container>.radio>label {
                font-size: 15px;
             }
-        }
-
-        @media screen and (max-width:361px) {
-            .blank-section {
-                height: 15px;
-            }
-            .course-page-cover-section {
-                height: 230px;
-            }
-            .course-page-related-container>.course-card>.course-card-profile {
-                left: 235px;
-            }
-            .course-page-profile-image {
-                width: 30px;
-                height: 30px;
-            }
-            .course-page-profile-container {
-                padding: 5px;
-            }
-            .course-page-statistic-people-icon-r {
-                padding: 17px 0px;
-            }
-            .course-page-statistic-time-icon-r {
-                padding: 17px 0px;
-            }
-            .course-page-statistic-place-icon-r {
-                padding: 17px 0px;
-            }
-            .course-page-share-btn-r>i {
-                font-size: 35px;
-            }
-            .course-page-share-btn-r>h3 {
-                font-size: 20px;
-            }
-            .course-page-share-btn-r {
-                padding: 5px 0px;
-            }
-            .course-page-buy-btn-r>h3 {
-                font-size: 20px;
-            }
-            .course-page-buy-btn-r>i {
-                font-size: 35px;
-            }
-            .course-page-buy-btn-r {
-                padding: 5px 0px;
-            }
-            .course-page-date-collapse-container>.radio>label{
-              font-size: 15px;
-            }
-            .course-page-course-tab-row-r {
-              padding-bottom: 20px;
-            }
-            .course-page-course-tab-image-r{
-              height: 90px;
-            }
-            .course-page-course-tab-info-r{
-              height: 90px;
-            }
-            .course-page-course-tab-title-r{
-              font-size: 18px;
-              line-height: 28px;
-            }
-            .course-page-course-tab-rate-r{
-              font-size: 18px;
-              line-height: 28px;
-            }
-            .course-page-course-tab-rate-r>.rate_row>.rate_star {
-             font-size: 20px;
-             padding: 0px 6px;
-            }
-            .course-page-course-tab-pb-r{
-              line-height: 26px;
-            }
-            .course-page-tab-container>.nav>li>a {
-              padding: 10px 7px;
-            }
-            .course-page-tab-container>.nav-tabs {
-              margin-right: 16px;
-            }
-        }
-
-        @media screen and (max-width:323px) {
-            .course-page-cover-section {
-                height: 210px;
-            }
-            .course-page-tab-image {
-                width: 45%;
-                height: 100px;
-            }
-            .course-page-tab-content>h4 {
-                font-size: 13px;
-            }
-            .course-page-tab-content {
-                height: 100px;
-            }
-            .course-page-related-container>.course-card>.course-card-profile {
-                left: 205px;
+            .course-page-date-collapse-container>.radio>label>input[type=radio]{
+              margin-top: 5px;
             }
         }
 
         @media screen and (max-width:321px) {
-            .course-page-profile-container>.col-md-12>h1 {
-                font-size: 15px;
-            }
-            .course-page-profile-caption>a>h3 {
-                font-size: 12px;
-            }
-            .course-page-profile-image {
-                height: 25px;
-                width: 25px;
-            }
             .course-page-related-container>.course-card>.course-card-profile {
                 left: 213px;
                 top: 190px;
             }
-            .course-page-statistic-pt-holder-r>.course-page-statistic-people-r>.course-page-statistic-people-icon-r {
-                width: 70px;
-                height: 70px;
+            .course-page-tab-nav-container>.nav>li>a{
+              font-size: 12px;
             }
-            .course-page-statistic-pt-holder-r>.course-page-statistic-time-r>.course-page-statistic-time-icon-r {
-                width: 70px;
-                height: 70px;
+            .course-page-course-tab-pb-r{
+              line-height: 29px;
             }
-            .course-page-statistic-pt-holder-r>a>.course-page-statistic-place-r>.course-page-statistic-place-icon-r {
-                width: 70px;
-                height: 70px;
+            .course-page-course-tab-price-r{
+              font-size: 12px;
+            }
+            .course-page-course-tab-buy-r{
+              font-size: 12px;
+            }
+            .course-page-buy-btn-r>h3{
+              font-size: 25px;
             }
         }
 
