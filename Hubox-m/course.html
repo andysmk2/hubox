@@ -21,7 +21,6 @@
     <link href="css/bootstrap-dropdownhover.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
 
-
     <!-- resposive css -->
     <link href="css/responsive-m.css" rel="stylesheet">
 
@@ -40,6 +39,9 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
+    <link rel="stylesheet" href="css/thumbnail.css">
+
+
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400italic,700%7CMontserrat:400,700" rel="stylesheet" type="text/css">
 
     <!-- jQuery -->
@@ -48,110 +50,83 @@
 </head>
 
 <body>
-  <!-- Navigation starts here-->
-  <nav class="m-nav-container">
-      <div class="nav-toggle-container" id="open-button" type="button">
-          <i class="fa fa-bars"></i>
-          </span>
-      </div>
-      <div class="nav-logo">
-          <img src="img/logo.png" />
-      </div>
-      <div class="top-menu">
-          <div class="dropdown">
-              <a class="dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown">
-                  <i class="fa fa-fw fa-star-o"></i><span>所有學習</span>
-              </a>
-              <ul class="dropdown-menu">
-                  <li><a href="http://www.hubox.life/demo/m/allc.html"><div class="nav-dropdown-icon-holder"><img src="img/icon2.jpg"/></div>手作學習</a></li>
-                  <li><a href="#"><div class="nav-dropdown-icon-holder"><img src="img/icon2.jpg"/></div>花藝學習</a></li>
-                  <li><a href="#"><div class="nav-dropdown-icon-holder"><img src="img/icon2.jpg"/></div>烘焙學習</a></li>
-                  <li><a href="#"><div class="nav-dropdown-icon-holder"><img src="img/icon2.jpg"/></div>職人學習</a></li>
-              </ul>
-          </div>
-          <a href="#"><i class="fa fa-fw fa-bell-o"></i><span>學習商一覽</span></a>
-          <a href="#"><i class="fa fa-fw fa-envelope-o"></i><span>說明</span></a>
-          <a href="#">
-              <div class="nav-member-profile-holder">
-                  <div class="nav-member-profile-image"><img src="img/profile.jpg" /></div>
-              </div>
-          </a>
-      </div>
-  </nav>
-  <div class="menu-wrap">
-      <nav class="menu">
-          <div class="icon-list">
-              <a href="http://www.hubox.life/demo/m/index.html">
-                  <div class="side-nav-logo"><img src="img/logo.png" /></div>
-              </a>
-              <a href="#">
-                  <div class="nav-member-profile-holder">
-                      <div class="nav-member-profile-image"><img src="img/profile.jpg" /></div>
-                      <div class="nav-member-profile-caption">Ethan,歡迎回來</div>
-                  </div>
-              </a>
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  <i class="fa fa-fw fa-star-o"></i><span>所有學習</span>
-              </a>
-              <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                  <a href="http://www.hubox.life/demo/m/allc.html"><div class="nav-dropdown-icon-holder"><img src="img/icon2.jpg"/></div><span>手作學習</span></a>
-                  <a href="http://www.hubox.life/demo/m/allc.html"><div class="nav-dropdown-icon-holder"><img src="img/icon2.jpg"/></div><span>花藝學習</span></a>
-                  <a href="http://www.hubox.life/demo/m/allc.html"><div class="nav-dropdown-icon-holder"><img src="img/icon2.jpg"/></div><span>烘焙學習</span></a>
-                  <a href="http://www.hubox.life/demo/m/allc.html"><div class="nav-dropdown-icon-holder"><img src="img/icon2.jpg"/></div><span>職人學習</span></a>
-              </div>
-              <a href="#"><i class="fa fa-fw fa-bell-o"></i><span>學習商一覽</span></a>
-              <a href="#"><i class="fa fa-fw fa-envelope-o"></i><span>說明</span></a>
-          </div>
-      </nav>
-      <!-- <button class="close-button" id="close-button"></button> -->
-  </div>
-  <!-- navigation ends here -->
+    <!-- Navigation starts here-->
+    <nav class="m-nav-container">
+        <div class="nav-toggle-container" id="open-button" type="button">
+            <i class="fa fa-bars"></i>
+            </span>
+        </div>
+        <div class="nav-logo">
+            <img src="img/logo.png" />
+        </div>
+        <div class="top-menu">
+            <a href="#"><i class="fa fa-fw fa-star-o"></i><span>所有學習</span></a>
+            <a href="#"><i class="fa fa-fw fa-bell-o"></i><span>學習商一覽</span></a>
+            <a href="#"><i class="fa fa-fw fa-envelope-o"></i><span>說明</span></a>
+            <a href="#">
+                <div class="nav-member-profile-holder">
+                    <div class="nav-member-profile-image"><img src="img/profile.jpg" /></div>
+                </div>
+            </a>
+        </div>
+    </nav>
+    <div class="menu-wrap">
+        <nav class="menu">
+            <div class="icon-list">
+                <a href="http://www.hubox.life/demo/m/index.html">
+                    <div class="side-nav-logo"><img src="img/logo.png" /></div>
+                </a>
+                <a href="#">
+                    <div class="nav-member-profile-holder">
+                        <div class="nav-member-profile-image"><img src="img/profile.jpg" /></div>
+                        <div class="nav-member-profile-caption">Ethan,歡迎回來</div>
+                    </div>
+                </a>
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <i class="fa fa-fw fa-star-o"></i><span>所有學習</span>
+                </a>
+                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <a href="http://www.hubox.life/demo/m/allc.html">
+                        <div class="nav-dropdown-icon-holder"><img src="img/icon2.jpg" /></div><span>手作學習</span></a>
+                    <a href="http://www.hubox.life/demo/m/allc.html">
+                        <div class="nav-dropdown-icon-holder"><img src="img/icon2.jpg" /></div><span>花藝學習</span></a>
+                    <a href="http://www.hubox.life/demo/m/allc.html">
+                        <div class="nav-dropdown-icon-holder"><img src="img/icon2.jpg" /></div><span>烘焙學習</span></a>
+                    <a href="http://www.hubox.life/demo/m/allc.html">
+                        <div class="nav-dropdown-icon-holder"><img src="img/icon2.jpg" /></div><span>職人學習</span></a>
+                </div>
+                <a href="#"><i class="fa fa-fw fa-bell-o"></i><span>學習商一覽</span></a>
+                <a href="#"><i class="fa fa-fw fa-envelope-o"></i><span>說明</span></a>
+            </div>
+        </nav>
+        <button class="close-button" id="close-button"></button>
+    </div>
+    <!-- navigation ends here -->
 
     <!-- Cover-section starts here-->
     <div class="content-wrap">
         <section class="course-page-cover-section">
+            <ul id="lightSlider">
+                <li data-thumb="img/mk/mk1.jpg">
+                    <img src="img/mk/mk1.jpg" />
+                </li>
+                <li data-thumb="img/mk/mk2.jpg">
+                    <img src="img/mk/mk2.jpg" />
+                </li>
+                <li data-thumb="img/mk/mk3.jpg">
+                    <img src="img/mk/mk3.jpg" />
+                </li>
+                <li data-thumb="img/mk/mk4.jpg">
+                    <img src="img/mk/mk4.jpg" />
+                </li>
+                <li data-thumb="img/mk/mk5.jpg">
+                    <img src="img/mk/mk5.jpg" />
+                </li>
+                <li data-thumb="img/mk/mk2.jpg">
+                    <img src="img/mk/mk2.jpg" />
+                </li>
+            </ul>
 
-            <header id="myCarousel" class="carousel slide">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-
-                <!-- Wrapper for Slides -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <!-- Set the first background image using inline CSS below. -->
-                        <div class="fill">
-                            <img src="img/sky_walker2.png">
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <!-- Set the second background image using inline CSS below. -->
-                        <div class="fill">
-                            <img src="img/mk/mk2.jpg" />
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <!-- Set the third background image using inline CSS below. -->
-                        <div class="fill">
-                            <img src="img/mk/mk3.jpg" />
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Controls -->
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="icon-prev"></span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="icon-next"></span>
-                </a>
-
-            </header>
         </section>
         <!-- Cover-section ends here-->
         <section class="blank-section"></section>
@@ -160,6 +135,20 @@
                 <div class="course-page-statistic-container-r">
                     <div class="course-page-statistic-title-r">
                         <h1>天行者/Anakin Skywalker</h1>
+                    </div>
+                    <div class="stars">
+                        <form action="">
+                            <input class="star star-5" id="star-5" type="radio" name="star" />
+                            <label class="star star-5" for="star-5"></label>
+                            <input class="star star-4" id="star-4" type="radio" name="star" />
+                            <label class="star star-4" for="star-4"></label>
+                            <input class="star star-3" id="star-3" type="radio" name="star" />
+                            <label class="star star-3" for="star-3"></label>
+                            <input class="star star-2" id="star-2" type="radio" name="star" />
+                            <label class="star star-2" for="star-2"></label>
+                            <input class="star star-1" id="star-1" type="radio" name="star" />
+                            <label class="star star-1" for="star-1"></label>
+                        </form>
                     </div>
                     <div class="course-page-statistic-vendor-holder-r">
                         <div class="course-page-statistic-vendor-name">
@@ -329,123 +318,204 @@
                             <div class="course-page-course-tab-container-r">
                                 <!-- Vendor-page-r course-1 starts here-->
                                 <div class="allc-page-tab-row">
-                                  <div class="allc-page-tab-image">
-                                    <a href="#"><img src="img/cover0.jpg"/></a>
-                                  </div>
-                                  <div class="allc-page-tab-info">
-                                    <a href="#">
-                                      <div class="allc-page-tab-info-title">
-                                      愛迪生手作桌燈
-                                      </div>
-                                    </a>
-                                    <div class="allc-page-tab-info-vendor">
-                                      <div class="allc-page-tab-info-vendor-logo">
-                                        <a href="#">
-                                          <img src="img/mk_logo.jpg"/>
-                                        </a>
-                                      </div>
-                                      <div class="allc-page-tab-info-vendor-name">
-                                         <a href="#">
-                                           <h2>木客微光</h2>
-                                         </a>
-                                      </div>
+                                    <div class="allc-page-tab-image">
+                                        <a href="#"><img src="img/cover0.jpg" /></a>
                                     </div>
-                                  </div>
-                                  <div class="allc-page-tab-price">
-                                    NTD 1,500
-                                  </div>
+                                    <div class="allc-page-tab-info">
+                                        <a href="#">
+                                            <div class="allc-page-tab-info-title">
+                                                愛迪生手作桌燈
+                                            </div>
+                                        </a>
+                                        <div class="allc-page-tab-info-vendor">
+                                            <div class="allc-page-tab-info-vendor-logo">
+                                                <a href="#">
+                                                    <img src="img/mk_logo.jpg" />
+                                                </a>
+                                            </div>
+                                            <div class="allc-page-tab-info-vendor-name">
+                                                <a href="#">
+                                                    <h2>木客微光</h2>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="allc-page-tab-price">
+                                        NTD 1,500
+                                    </div>
                                 </div>
                                 <!-- Vendor-page-r course-1 ends here-->
                                 <!-- Vendor-page-r course-2 starts here-->
                                 <div class="allc-page-tab-row">
-                                  <div class="allc-page-tab-image">
-                                    <a href="#"><img src="img/mk/mk4.jpg"/></a>
-                                  </div>
-                                  <div class="allc-page-tab-info">
-                                    <a href="#">
-                                      <div class="allc-page-tab-info-title">
-                                      手作水管燈
-                                      </div>
-                                    </a>
-                                    <div class="allc-page-tab-info-vendor">
-                                      <div class="allc-page-tab-info-vendor-logo">
-                                        <a href="#">
-                                          <img src="img/mk_logo.jpg"/>
-                                        </a>
-                                      </div>
-                                      <div class="allc-page-tab-info-vendor-name">
-                                         <a href="#">
-                                           <h2>木客微光</h2>
-                                         </a>
-                                      </div>
+                                    <div class="allc-page-tab-image">
+                                        <a href="#"><img src="img/mk/mk4.jpg" /></a>
                                     </div>
-                                  </div>
-                                  <div class="allc-page-tab-price">
-                                    NTD 1,500
-                                  </div>
+                                    <div class="allc-page-tab-info">
+                                        <a href="#">
+                                            <div class="allc-page-tab-info-title">
+                                                手作水管燈
+                                            </div>
+                                        </a>
+                                        <div class="allc-page-tab-info-vendor">
+                                            <div class="allc-page-tab-info-vendor-logo">
+                                                <a href="#">
+                                                    <img src="img/mk_logo.jpg" />
+                                                </a>
+                                            </div>
+                                            <div class="allc-page-tab-info-vendor-name">
+                                                <a href="#">
+                                                    <h2>木客微光</h2>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="allc-page-tab-price">
+                                        NTD 1,500
+                                    </div>
                                 </div>
                                 <!-- Vendor-page-r course-2 ends here-->
                                 <!-- Vendor-page-r course-3 starts here-->
                                 <div class="allc-page-tab-row">
-                                  <div class="allc-page-tab-image">
-                                    <a href="#"><img src="img/class7.jpg"/></a>
-                                  </div>
-                                  <div class="allc-page-tab-info">
-                                    <a href="#">
-                                      <div class="allc-page-tab-info-title">
-                                      夏洛克手作壁燈
-                                      </div>
-                                    </a>
-                                    <div class="allc-page-tab-info-vendor">
-                                      <div class="allc-page-tab-info-vendor-logo">
-                                        <a href="#">
-                                          <img src="img/mk_logo.jpg"/>
-                                        </a>
-                                      </div>
-                                      <div class="allc-page-tab-info-vendor-name">
-                                         <a href="#">
-                                           <h2>木客微光</h2>
-                                         </a>
-                                      </div>
+                                    <div class="allc-page-tab-image">
+                                        <a href="#"><img src="img/class7.jpg" /></a>
                                     </div>
-                                  </div>
-                                  <div class="allc-page-tab-price">
-                                    NTD 1,800
-                                  </div>
+                                    <div class="allc-page-tab-info">
+                                        <a href="#">
+                                            <div class="allc-page-tab-info-title">
+                                                夏洛克手作壁燈
+                                            </div>
+                                        </a>
+                                        <div class="allc-page-tab-info-vendor">
+                                            <div class="allc-page-tab-info-vendor-logo">
+                                                <a href="#">
+                                                    <img src="img/mk_logo.jpg" />
+                                                </a>
+                                            </div>
+                                            <div class="allc-page-tab-info-vendor-name">
+                                                <a href="#">
+                                                    <h2>木客微光</h2>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="allc-page-tab-price">
+                                        NTD 1,800
+                                    </div>
                                 </div>
                                 <!-- Vendor-page-r course-3 ends here-->
                                 <!-- Vendor-page-r course-4 starts here-->
                                 <div class="allc-page-tab-row">
-                                  <div class="allc-page-tab-image">
-                                    <a href="#"><img src="img/sky_walker2.jpg"/></a>
-                                  </div>
-                                  <div class="allc-page-tab-info">
-                                    <a href="#">
-                                      <div class="allc-page-tab-info-title">
-                                      天行者手作桌燈
-                                      </div>
-                                    </a>
-                                    <div class="allc-page-tab-info-vendor">
-                                      <div class="allc-page-tab-info-vendor-logo">
-                                        <a href="#">
-                                          <img src="img/mk_logo.jpg"/>
-                                        </a>
-                                      </div>
-                                      <div class="allc-page-tab-info-vendor-name">
-                                         <a href="#">
-                                           <h2>木客微光</h2>
-                                         </a>
-                                      </div>
+                                    <div class="allc-page-tab-image">
+                                        <a href="#"><img src="img/sky_walker2.jpg" /></a>
                                     </div>
-                                  </div>
-                                  <div class="allc-page-tab-price">
-                                    NTD 3,500
-                                  </div>
+                                    <div class="allc-page-tab-info">
+                                        <a href="#">
+                                            <div class="allc-page-tab-info-title">
+                                                天行者手作桌燈
+                                            </div>
+                                        </a>
+                                        <div class="allc-page-tab-info-vendor">
+                                            <div class="allc-page-tab-info-vendor-logo">
+                                                <a href="#">
+                                                    <img src="img/mk_logo.jpg" />
+                                                </a>
+                                            </div>
+                                            <div class="allc-page-tab-info-vendor-name">
+                                                <a href="#">
+                                                    <h2>木客微光</h2>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="allc-page-tab-price">
+                                        NTD 3,500
+                                    </div>
                                 </div>
                                 <!-- Vendor-page-r course-4 ends here-->
                             </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane fade" id="comments"></div>
+                        <div role="tabpanel" class="tab-pane fade" id="comments">
+                            <div class="course-page-comment-tab-container">
+                                <div class="comment-row">
+                                    <div class="comment-profile-image">
+                                        <img src="img/icon1.jpg" />
+                                    </div>
+                                    <div class="comment-bubble">
+                                        <div class="comment-bubble-name-date">
+                                            <div class="comment-bubble-name">Simba</div>
+                                            <div class="comment-bubble-date"><span>Feb 8 2017</span><span>,3:40PM</span></div>
+                                        </div>
+                                        <div class="comment-bubble-content">課程很棒喔，加油！！希望能再多出一點種類的課程等等等等.... 課程很棒喔，加油！！希望能再多出一點種類的課程等等等等....課程很棒喔，加油！！希望能再多出一點種類的課程等等等等.... 課程很棒喔，加油！！希望能再多出一點種類的課程等等等等....課程很棒喔，加油！！希望能再多出一點種類的課程等等等等.... 課程很棒喔，加油！！
+                                        </div>
+                                        <div class="comment-stars">
+                                            <form action="">
+                                                <input class="comment-star comment-star-5" id="comment-star-5" type="radio" name="comment-star" />
+                                                <label class="comment-star comment-star-5" for="comment-star-5"></label>
+                                                <input class="comment-star comment-star-4" id="comment-star-4" type="radio" name="comment-star" />
+                                                <label class="comment-star comment-star-4" for="comment-star-4"></label>
+                                                <input class="comment-star comment-star-3" id="comment-star-3" type="radio" name="comment-star" />
+                                                <label class="comment-star comment-star-3" for="comment-star-3"></label>
+                                                <input class="comment-star comment-star-2" id="comment-star-2" type="radio" name="comment-star" />
+                                                <label class="comment-star comment-star-2" for="comment-star-2"></label>
+                                                <input class="comment-star comment-star-1" id="comment-star-1" type="radio" name="comment-star" />
+                                                <label class="comment-star comment-star-1" for="comment-star-1"></label>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comment-row">
+                                    <div class="comment-profile-image">
+                                        <img src="img/icon1.jpg" />
+                                    </div>
+                                    <div class="comment-bubble">
+                                        <div class="comment-bubble-name-date">
+                                            <div class="comment-bubble-name">Simba</div>
+                                            <div class="comment-bubble-date"><span>Feb 8 2017</span><span>,3:40PM</span></div>
+                                        </div>
+                                        <div class="comment-bubble-content">課程很棒喔，加油！！</div>
+                                        <div class="comment-stars-1">
+                                            <form action="">
+                                                <input class="comment-star-1 comment-star-1-5" id="comment-star-1-5" type="radio" name="comment-star-1" />
+                                                <label class="comment-star-1 comment-star-1-5" for="comment-star-1-5"></label>
+                                                <input class="comment-star-1 comment-star-1-4" id="comment-star-1-4" type="radio" name="comment-star-1" />
+                                                <label class="comment-star-1 comment-star-1-4" for="comment-star-1-4"></label>
+                                                <input class="comment-star-1 comment-star-1-3" id="comment-star-1-3" type="radio" name="comment-star-1" />
+                                                <label class="comment-star-1 comment-star-1-3" for="comment-star-1-3"></label>
+                                                <input class="comment-star-1 comment-star-1-2" id="comment-star-1-2" type="radio" name="comment-star-1" />
+                                                <label class="comment-star-1 comment-star-1-2" for="comment-star-1-2"></label>
+                                                <input class="comment-star-1 comment-star-1-1" id="comment-star-1-1" type="radio" name="comment-star-1" />
+                                                <label class="comment-star-1 comment-star-1-1" for="comment-star-1-1"></label>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comment-row">
+                                    <div class="comment-profile-image">
+                                        <img src="img/icon1.jpg" />
+                                    </div>
+                                    <div class="comment-bubble">
+                                        <div class="comment-bubble-name-date">
+                                            <div class="comment-bubble-name">Simba</div>
+                                            <div class="comment-bubble-date"><span>Feb 8 2017</span><span>,3:40PM</span></div>
+                                        </div>
+                                        <div class="comment-bubble-content">課程很棒喔，加油！！</div>
+                                        <div class="comment-stars-2">
+                                            <form action="">
+                                                <input class="comment-star-2 comment-star-2-5" id="comment-star-2-5" type="radio" name="comment-star-2" />
+                                                <label class="comment-star-2 comment-star-2-5" for="comment-star-2-5"></label>
+                                                <input class="comment-star-2 comment-star-2-4" id="comment-star-2-4" type="radio" name="comment-star-2" />
+                                                <label class="comment-star-2 comment-star-2-4" for="comment-star-2-4"></label>
+                                                <input class="comment-star-2 comment-star-2-3" id="comment-star-2-3" type="radio" name="comment-star-2" />
+                                                <label class="comment-star-2 comment-star-2-3" for="comment-star-2-3"></label>
+                                                <input class="comment-star-2 comment-star-2-2" id="comment-star-2-2" type="radio" name="comment-star-2" />
+                                                <label class="comment-star-2 comment-star-2-2" for="comment-star-2-2"></label>
+                                                <input class="comment-star-2 comment-star-2-1" id="comment-star-2-1" type="radio" name="comment-star-2" />
+                                                <label class="comment-star-2 comment-star-2-1" for="comment-star-2-1"></label>
+                                            </form>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <!-- Tab panes ends here-->
                 </div>
@@ -457,89 +527,89 @@
                 <h1>為您推薦</h1></div>
             <div class="course-page-related-container">
                 <div class="loop owl-carousel owl-theme owl-loaded owl-drag">
-                  <div class="course-tab-row">
-                      <div class="course-tab-image">
-                          <a href="#"><img src="img/class9.jpg" /></a>
-                      </div>
-                      <div class="course-tab-info">
-                          <a href="#">
-                              <div class="course-tab-info-title">
-                                  幸福草莓塔
-                              </div>
-                          </a>
-                          <div class="course-tab-info-vendor">
-                              <div class="course-tab-info-vendor-logo">
-                                  <a href="#">
-                                      <img src="img/mk_logo.jpg" />
-                                  </a>
-                              </div>
-                              <div class="course-tab-info-vendor-name">
-                                  <a href="#">
-                                      <h2>Place M</h2>
-                                  </a>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="course-tab-price">
-                          NTD 3,000
-                      </div>
-                  </div>
+                    <div class="course-tab-row">
+                        <div class="course-tab-image">
+                            <a href="#"><img src="img/class9.jpg" /></a>
+                        </div>
+                        <div class="course-tab-info">
+                            <a href="#">
+                                <div class="course-tab-info-title">
+                                    幸福草莓塔
+                                </div>
+                            </a>
+                            <div class="course-tab-info-vendor">
+                                <div class="course-tab-info-vendor-logo">
+                                    <a href="#">
+                                        <img src="img/mk_logo.jpg" />
+                                    </a>
+                                </div>
+                                <div class="course-tab-info-vendor-name">
+                                    <a href="#">
+                                        <h2>Place M</h2>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-tab-price">
+                            NTD 3,000
+                        </div>
+                    </div>
 
-                  <div class="course-tab-row">
-                      <div class="course-tab-image">
-                          <a href="#"><img src="img/class9.jpg" /></a>
-                      </div>
-                      <div class="course-tab-info">
-                          <a href="#">
-                              <div class="course-tab-info-title">
-                                  幸福草莓塔
-                              </div>
-                          </a>
-                          <div class="course-tab-info-vendor">
-                              <div class="course-tab-info-vendor-logo">
-                                  <a href="#">
-                                      <img src="img/mk_logo.jpg" />
-                                  </a>
-                              </div>
-                              <div class="course-tab-info-vendor-name">
-                                  <a href="#">
-                                      <h2>Place M</h2>
-                                  </a>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="course-tab-price">
-                          NTD 3,000
-                      </div>
-                  </div>
+                    <div class="course-tab-row">
+                        <div class="course-tab-image">
+                            <a href="#"><img src="img/class9.jpg" /></a>
+                        </div>
+                        <div class="course-tab-info">
+                            <a href="#">
+                                <div class="course-tab-info-title">
+                                    幸福草莓塔
+                                </div>
+                            </a>
+                            <div class="course-tab-info-vendor">
+                                <div class="course-tab-info-vendor-logo">
+                                    <a href="#">
+                                        <img src="img/mk_logo.jpg" />
+                                    </a>
+                                </div>
+                                <div class="course-tab-info-vendor-name">
+                                    <a href="#">
+                                        <h2>Place M</h2>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-tab-price">
+                            NTD 3,000
+                        </div>
+                    </div>
 
-                  <div class="course-tab-row">
-                      <div class="course-tab-image">
-                          <a href="#"><img src="img/class9.jpg" /></a>
-                      </div>
-                      <div class="course-tab-info">
-                          <a href="#">
-                              <div class="course-tab-info-title">
-                                  幸福草莓塔
-                              </div>
-                          </a>
-                          <div class="course-tab-info-vendor">
-                              <div class="course-tab-info-vendor-logo">
-                                  <a href="#">
-                                      <img src="img/mk_logo.jpg" />
-                                  </a>
-                              </div>
-                              <div class="course-tab-info-vendor-name">
-                                  <a href="#">
-                                      <h2>Place M</h2>
-                                  </a>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="course-tab-price">
-                          NTD 3,000
-                      </div>
-                  </div>
+                    <div class="course-tab-row">
+                        <div class="course-tab-image">
+                            <a href="#"><img src="img/class9.jpg" /></a>
+                        </div>
+                        <div class="course-tab-info">
+                            <a href="#">
+                                <div class="course-tab-info-title">
+                                    幸福草莓塔
+                                </div>
+                            </a>
+                            <div class="course-tab-info-vendor">
+                                <div class="course-tab-info-vendor-logo">
+                                    <a href="#">
+                                        <img src="img/mk_logo.jpg" />
+                                    </a>
+                                </div>
+                                <div class="course-tab-info-vendor-name">
+                                    <a href="#">
+                                        <h2>Place M</h2>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-tab-price">
+                            NTD 3,000
+                        </div>
+                    </div>
 
 
                 </div>
@@ -603,9 +673,38 @@
 
     <script src="js/sticky.js"></script>
 
-    <!-- <script>
-    $(".course-page-statistic-container-r").stick_in_parent();
-    </script> -->
+    <!-- nav scroll js -->
+    <script src="js/scroll.js"></script>
+
+    <script src="js/thumbnail.js"></script>
+    <script>
+        $('#lightSlider').lightSlider({
+            gallery: true,
+            item: 1,
+            loop: true,
+            slideMargin: 0,
+            galleryMargin: 2,
+            thumbItem: 6,
+        });
+    </script>
+
+    <script>
+        function init() {
+            window.addEventListener('scroll', function(e) {
+                var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                    shrinkOn = 300,
+                    header = document.querySelector(".m-nav-container");
+                if (distanceY > shrinkOn) {
+                    classie.add(header, "m-nav-container-onscroll");
+                } else {
+                    if (classie.has(header, "m-nav-container-onscroll")) {
+                        classie.remove(header, "m-nav-container-onscroll");
+                    }
+                }
+            });
+        }
+        window.onload = init();
+    </script>
 
     <script>
         $('.loop').owlCarousel({
